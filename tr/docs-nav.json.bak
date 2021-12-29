@@ -1,0 +1,49 @@
+{
+  "items": [
+    {
+      "text": "Giriş",
+      "path": "Index.md"
+    },
+    {
+      "text": "Getting Started",
+      "items": [
+        {
+          "text": "Web Application",
+          "path": "Emailing.md",
+          "items": [
+            {
+              "text": "1: Setup Your Development Environment",
+              "path": "Emailing.md"
+            },
+            {
+              "text": "2: Creating a New Solution",
+              "path": "Emailing.md"
+            },
+            {
+              "text": "3: Running the Solution",
+              "path": "Entities.md"
+            }
+          ]
+        },
+        {
+          "text": "Console Application",
+          "path": "Entities.md"
+        }
+      ]
+    },
+    {
+      "text": "Tutorials",
+      "items": [
+        {
+          "text": "Web Application Development",
+          "items": [
+            {
+              "text": "1: Creating the Server Side",
+              "path": "Entities.md"
+            }
+          ]
+        }
+      ]
+    } 
+	]
+}
