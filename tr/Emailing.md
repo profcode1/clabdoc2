@@ -16,7 +16,7 @@ It is suggested to use the [ABP CLI](CLI.md) to install this package. Open a com
 ````bash
 abp add-package Volo.Abp.Emailing
 ````
-
+hh
 If you haven't done it yet, you first need to install the ABP CLI. For other installation options, see [the package description page](https://abp.io/package-detail/Volo.Abp.Emailing).
 
 ## Sending Emails
