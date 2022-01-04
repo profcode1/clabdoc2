@@ -12,6 +12,16 @@
 | Sku|Evet|Sku satılabilir, sepete eklenebilir ürünü temsil eder ve tekildir. Aynı Sku dan birden fazla olamaz. |Serbest|GOMLEK10KRMZM|
 | Barcode|Evet|Ürünün varsayılan barkodudur ve tekildir.|Serbest|978020137962
 
+Ürün hiyerarşik yapısı
+* Model
+    * Option
+        * Sku - `Barcode`
+
+Yukarıdaki örnek üzerinden gidecek olursak.
+
+* GOMLEK10 `Gömlek 10 modeli`
+    * GOMLEK10KRMZ `Gömlek 10 modelinin Kırmızı Renkli ürünü`
+        * GOMLEK10KRMZM `Gömlek 10 modeli Kırmızı Renkli ve medium bedenlisi`
 
 >Ürün Yapısı
 
