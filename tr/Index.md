@@ -17,17 +17,19 @@ Commercelab ile çalışmaya başlarken birden fazla entegrasyon yöntemi vardı
 
 ## Entegrasyonlar
 
+* Entegrasyona Başlarken
+    * [Entegrasyon nasıl yapılır?](Integration/Index.md)
 * Katalog Entegrasyonu
     * [Ürün Entegrasyonu](Integration/Catalog/Product.md)
-    * Stok Entegrasyonu
-    * Fiyat Entegrasyonu
+    * [Fiyat ve Stok Entegrasyonu](Integration/Catalog/PriceStock.md)    
 * Sipariş Entegrasyonu
-    * Müşteri Entegrasyonu
-    * Sipariş Durum Entegrasyonu
-        * Sipariş İptal Entegrasyonu
+    * [Müşteri Entegrasyonu](Integration/Customer.md)
+    * [Sipariş Entegrasyonu](Integration/Customer.md)
 * Fatura Entegrasyonu
-    * İade Faturası Entegrasyonu
+    * [Fatura Entegrasyonu](Integration/Invoice.md)
 
 
 
 > `Bir Sonraki` : [Ürün Entegrasyonu](Integration/Catalog/Product.md)
+
+

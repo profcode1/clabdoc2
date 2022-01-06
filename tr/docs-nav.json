@@ -5,41 +5,19 @@
       "path": "Index.md"
     },
     {
-      "text": "Başlarken",
+      "text": "Entegrasyon",
+      "path": "Integration/Index.md",
       "items": [
         {
-          "text": "Web Application",
-          "path": "Emailing.md",
+          "text": "Katalog Entegrasyonu",          
           "items": [
             {
-              "text": "1: Setup Your Development Environment",
-              "path": "Emailing.md"
+              "text": "Ürün Entegrasyonu",
+              "path": "Integration/Catalog/Product.md"
             },
             {
-              "text": "2: Creating a New Solution",
-              "path": "Emailing.md"
-            },
-            {
-              "text": "3: Running the Solution",
-              "path": "Entities.md"
-            }
-          ]
-        },
-        {
-          "text": "Console Application",
-          "path": "Entities.md"
-        }
-      ]
-    },
-    {
-      "text": "Tutorials",
-      "items": [
-        {
-          "text": "Web Application Development",
-          "items": [
-            {
-              "text": "1: Creating the Server Side",
-              "path": "Entities.md"
+              "text": "Fiyat ve Stok Entegrasyonu",
+              "path": "Integration/Catalog/PriceStock.md"
             }
           ]
         }
