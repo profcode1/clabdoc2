@@ -28,3 +28,25 @@ URL:`{path_the_comlab_api}/sapigw/suppliers/{supplierid}/products/price-and-inve
 }
 ```
 
+POSTMAN / Curl
+```sh
+curl --location -g --request POST 'https://{path_the_comlab_api}/sapigw/suppliers/{supplierid}/products/price-and-inventory' \
+--header 'Authorization: Basic TGhGajMzTjNwV4415fFgbUEcAo5ZmptYWd3ZWV1dVJWVGZIUGRybUhYWEhmbUM=' \
+--header 'Content-Type: application/json' \
+--data-raw '{
+    "items": [
+        {
+            "barcode": "8682344153486",
+            "listPrice": 129.0,
+            "quantity": 365,
+            "salePrice": 129.0
+        },
+        {
+            "barcode": "8682344158740",
+            "listPrice": 239.0,
+            "quantity": 101,
+            "salePrice": 239.0
+        }
+    ]
+}'
+```
