@@ -40,7 +40,7 @@ Bu istek sonrası size bu işlem adına bir BatchRequestId verilir. Bu işlemin 
 
 Method:`PUT`
 
-URL:`https://{path_the_comlab_api}/sapigw/suppliers/{{supplierid}}//products/batch-requests/58027b239a0543f9987e2274f8694936`
+URL:`https://{path_the_comlab_api}/sapigw/suppliers/{{supplierid}}/products/batch-requests/58027b239a0543f9987e2274f8694936`
 
 
 POSTMAN / Curl
