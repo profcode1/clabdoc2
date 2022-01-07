@@ -83,4 +83,29 @@ public static IRestResponse PutJson<T>(string url, T body, string username, stri
         }
 ```        
 
+## Entegrasyonlardaki istek limitleri
+>Saatlik ve günlük istek limitleri
+
+|İstek|Limit|
+|-|-|
+|QueCreateProductRequestDay|100	                 |
+|QueCreateProductRequestHours|50	|
+|QueUpdateCustomerLineRequestDay|2000	|
+|QueUpdateCustomerLineRequestHours|1000	|
+|QueUpdateCustomerRequestDay|100	|
+|QueUpdateCustomerRequestHours|10	|
+|QueUpdateInvoiceLinkRequestDay|10000	|
+|QueUpdateInvoiceLinkRequestHours|1000	|
+|QueUpdateOrderRequestDay|10000	|
+|QueUpdateOrderRequestHours|1000	|
+|QueUpdatePackageRequestDay|	10000	|
+|QueUpdatePackageRequestHours|	1000	|
+|QueUpdatePriceAndInventoryRequestDay	|2000	|
+|QueUpdatePriceAndInventoryRequestHours	|800	|
+|QueUpdateTrackingLinkRequestDay|	10000	|
+|QueUpdateTrackingLinkRequestHours|	1000	|
+|QueUpdateTrackingNumberRequestDay|	10000	|
+|QueUpdateTrackingNumberRequestHours|	1000|
+
+
 >Sonraki :  [Ürün Entegrasyonu](Catalog/Product.md)
