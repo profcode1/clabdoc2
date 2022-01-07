@@ -20,6 +20,16 @@
               "path": "Integration/Catalog/PriceStock.md"
             }
           ]
+        },
+        {
+          "text": "Sipariş Entegrasyonu",
+          "path": "Integration/Order.md",
+          "items": [
+            {
+              "text": "Sipariş Güncelleme Entegrasyonu",
+              "path": "Integration/OrderUpdate.md"
+            }
+          ]
         }
       ]
     } 
