@@ -24,7 +24,7 @@ Commercelab ile çalışmaya başlarken birden fazla entegrasyon yöntemi vardı
     * [Fiyat ve Stok Entegrasyonu](Integration/Catalog/PriceStock.md)    
 * Sipariş Entegrasyonu
     * [Müşteri Entegrasyonu](Integration/Customer.md)
-    * [Sipariş Entegrasyonu](Integration/Customer.md)
+    * [Sipariş Entegrasyonu](Integration/Order.md)
 * Fatura Entegrasyonu
     * [Fatura Entegrasyonu](Integration/Invoice.md)
 

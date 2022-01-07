@@ -194,7 +194,7 @@ curl --location -g --request POST '{path_the_comlab_api}/sapigw/suppliers/{suppl
             ]
         }, 
         {
-            "barcode": "324324324324",
+            "barcode": "324324324325",
             "title": "Regular Fit Normal Kesim  Gömlek",
             "productMainId": "EDFCVG",
             "brandId": 22,
@@ -245,6 +245,58 @@ curl --location -g --request POST '{path_the_comlab_api}/sapigw/suppliers/{suppl
         }
     ]
 }'
+```
+> Result
+```json
+{
+    "BatchRequestId": "902b6d5831ab4e5a91ba46afb451f618",
+    "IsSuccess": true,
+    "Message": null
+}
+```
+
+Bu istek sonrası size bu işlem adına bir BatchRequestId verilir. Bu işlemin bitip bitmediği veya başarılı olup olmadığı BatchRequest sorgulama apisi ile öğrenilmelidir.
+
+# Api BatchRequest Sonucunu görme
+
+Method:`PUT`
+
+URL:`https://{path_the_comlab_api}/sapigw/suppliers/{{supplierid}}//products/batch-requests/58027b239a0543f9987e2274f8694936`
+
+
+POSTMAN / Curl
+```sh
+curl --location -g --request PUT 'https://{path_the_comlab_api}/sapigw/suppliers/{{supplierid}}/products/batch-requests/58027b239a0543f9987e2274f8694936' \
+--header 'Authorization: Basic TGhGajMzTjNwV4415fFgbUEcAo5ZmptYWd3ZWV1dVJWVGZIUGRybUhYWEhmbUM=' \
+--header 'Content-Type: application/json' \
+'
+```
+> Result
+```json
+{
+    "BatchRequestId": "0116ebe904054da7a3f19bf16101fc45",
+    "Items": [
+        {
+            "Value": "324324324324",
+            "Status": "SUCCESS",
+            "FailureReasons": [
+                null
+            ]
+        },
+        {
+            "Value": "324324324325",
+            "Status": "SUCCESS",
+            "FailureReasons": [
+                null
+            ]
+        }
+    ],
+    "Status": "COMPLETED",
+    "CreationDate": 1641445355247,
+    "LastModification": 1641445389313,
+    "SourceType": "API",
+    "ItemCount": 450
+}
 ```
 
 
