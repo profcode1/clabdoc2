@@ -28,8 +28,16 @@
             {
               "text": "Sipariş Güncelleme Entegrasyonu",
               "path": "Integration/OrderUpdate.md"
+            },
+            {
+              "text": "Sipariş Kargo Bilgisi Entegrasyonu",
+              "path": "Integration/OrderUpdateTrackingData.md"
             }
           ]
+        },
+        {
+          "text": "Fatura Entegrasyonu",
+          "path": "Integration/Invoice.md"
         }
       ]
     } 
