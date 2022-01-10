@@ -41,7 +41,7 @@ Request Body:
 POSTMAN / Curl
 ```sh
 curl --location -g --request POST 'https://{path_the_comlab_api}/sapigw/suppliers/{supplierid}/products/price-and-inventory' \
---header 'Authorization: Basic TGhGajMzTjNwV4415fFgbUEcAo5ZmptYWd3ZWV1dVJWVGZIUGRybUhYWEhmbUM=' \
+--header 'Authorization: Basic xxx=' \
 --header 'Content-Type: application/json' \
 --data-raw '{
     "items": [

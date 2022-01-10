@@ -28,7 +28,7 @@ URL:`{path_the_comlab_api}/sapigw/suppliers/{{supplierid}}/orders?size=200&order
 POSTMAN / Curl
 ```sh
 curl --location -g --request POST 'https://{path_the_comlab_api}/sapigw/suppliers/{{supplierid}}/orders?size=200&orderByField=CreatedDate&&orderByDirection=ASC&startDate=1623827403272&endDate=1623913803272' \
---header 'Authorization: Basic TGhGajMzTjNwV4415fFgbUEcAo5ZmptYWd3ZWV1dVJWVGZIUGRybUhYWEhmbUM=' \
+--header 'Authorization: Basic xxx=' \
 --header 'Content-Type: application/json' \
 '
 ```

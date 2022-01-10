@@ -141,7 +141,7 @@ Request Body:
 POSTMAN / Curl
 ```sh
 curl --location -g --request POST '{path_the_comlab_api}/sapigw/suppliers/{supplierid}/v2/products' \
---header 'Authorization: Basic TGhGajMzTjNwV4415fFgbUEcAo5ZmptYWd3ZWV1dVJWVGZIUGRybUhYWEhmbUM=' \
+--header 'Authorization: Basic xxx=' \
 --header 'Content-Type: application/json' \
 --data-raw '{
     "items": [{
@@ -267,7 +267,7 @@ URL:`https://{path_the_comlab_api}/sapigw/suppliers/{{supplierid}}/products/batc
 POSTMAN / Curl
 ```sh
 curl --location -g --request PUT 'https://{path_the_comlab_api}/sapigw/suppliers/{{supplierid}}/products/batch-requests/58027b239a0543f9987e2274f8694936' \
---header 'Authorization: Basic TGhGajMzTjNwV4415fFgbUEcAo5ZmptYWd3ZWV1dVJWVGZIUGRybUhYWEhmbUM=' \
+--header 'Authorization: Basic xxx=' \
 --header 'Content-Type: application/json' \
 '
 ```
