@@ -178,14 +178,14 @@ public partial class EDocumentResult
 
 
 
-Method:`GET`
+Method:`POST`
 
-URL:`{{path_the_comlab_api}}/sapigw/suppliers/{{supplierid}}//edocuments/updateClientStatus`
+URL:`{{path_the_comlab_api}}/sapigw/suppliers/{{supplierid}}/edocuments/updateClientStatus`
 
 
 POSTMAN / Curl
 ```sh
-curl --location -g --request POST '{{path_the_comlab_api}}/sapigw/suppliers/{{supplierid}}//edocuments/updateClientStatus' \
+curl --location -g --request POST '{{path_the_comlab_api}}/sapigw/suppliers/{{supplierid}}/edocuments/updateClientStatus' \
 --header 'Authorization: Basic xxx' \
 --header 'Content-Type: application/json' \
 --data-raw '[
