@@ -4,7 +4,7 @@
 
 Bu doküman portalı entegrasyon veya arayüz üzerinden yapılacak işlemlerinin tamamlanması adına gerekli bütün bilgilerin iletildiği Commercelab entegrasyon doküman sayfasıdır.
 
-![screenshot](../m/integration.jpeg)
+![screenshot](../../m/integration.jpeg)
 
 
 ## Entegrasyon Modelleri
@@ -15,7 +15,7 @@ Commercelab ile çalışmaya başlarken birden fazla entegrasyon yöntemi vardı
 * Comlab Enterprise entegrasyon modeli
 * Comlab Api + Enterprise entegrasyon modeli
 
-## Entegrasyonlar
+## Dökümanlar
 
 * Entegrasyona Başlarken
     * [Entegrasyon nasıl yapılır?](Integration/Index.md)
