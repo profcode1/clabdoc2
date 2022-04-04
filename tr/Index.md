@@ -12,7 +12,7 @@ Bu doküman portalı entegrasyon veya arayüz üzerinden yapılacak işlemlerini
 Commercelab ile çalışmaya başlarken birden fazla entegrasyon yöntemi vardır. Bu yöntemlerden sizin yapınıza en uygun olanı seçip buradan nasıl ilerlenebileceğini takip edebilirsiniz.
 
 * Comlab Api entegrasyon modeli
-* Comlab Enterprise entegrasyon modeli
+* Comlab Enterprise entegrasyon modeli xxx
 * Comlab Api + Enterprise entegrasyon modeli
 
 ## Entegrasyonlar
