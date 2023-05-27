@@ -40,6 +40,36 @@
           "path": "Integration/Invoice.md"
         }
       ]
+    },
+    {
+      "text": "Oms Entegrasyon",
+      "path": "Integration/Index.md",
+      "items": [
+        {
+          "text": "Sipariş Entegrasyonu",          
+          "items": [
+            {
+              "text": "Sipariş Kaydetme",
+              "path": "Oms/SaveOrder.md"
+            }
+          ]
+        }
+      ]
+    } ,
+    {
+      "text": "Pim Entegrasyon",
+      "path": "Integration/Index.md",
+      "items": [
+        {
+          "text": "Katalog Entegrasyonu",          
+          "items": [
+            {
+              "text": "Onaylanan satıcı ürününe sku kaydetme ",
+              "path": "Pim/SaveExternalSku.md"
+            }
+          ]
+        }
+      ]
     } ,
     {
       "text": "Hub Kullanıcı Kılavuzu",
