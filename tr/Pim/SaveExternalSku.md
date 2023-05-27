@@ -1,6 +1,6 @@
 # Onaylanan satıcı ürününe sku kaydetme 
 
-![screenshoot](../../../m/productIntegration.png)
+![screenshoot](../../m/pim-flow-1.jpg)
 
 # Api
 
