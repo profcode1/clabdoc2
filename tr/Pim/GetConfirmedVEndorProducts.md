@@ -1,5 +1,4 @@
-# Onaylanan Satıcı Ürününe Sku Kaydetme 
-
+# Onaylanan Satıcı Ürünlerini Listeleme
 
 # Api
 
