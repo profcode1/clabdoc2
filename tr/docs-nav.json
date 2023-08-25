@@ -57,8 +57,34 @@
               "path": "Oms/CancelOrderItemLine.md"
             },
             {
-              "text": "Create Package",
+              "text": "Paket (Gönderi) Ekleme",
               "path": "Oms/CreatePackage.md"
+            }
+          ]
+        },
+        {
+          "text": "İade Entegrasyonu",
+          "items": [
+            {
+              "text": "İade isteği yaratma",
+              "path": "Oms/CreateReturnRequest.md"
+            },
+            {
+              "text": "İade Webhook Örnekleri",
+              "items": [
+                {
+                  "text": "İade paketinin durum güncellemeleri",
+                  "path": "Oms/ReturnRequestStatusUpdateWebHook.md"
+                },
+                {
+                  "text": "İade paketinin onaylanması",
+                  "path": "Oms/ReturnRequestConfirmedWebHook.md"
+                },
+                {
+                  "text": "İade paketinin reddedilmesi",
+                  "path": "Oms/ReturnRequestRejectedUpdateWebHook.md"
+                }
+              ]
             }
           ]
         }
