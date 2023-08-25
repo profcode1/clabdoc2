@@ -5,7 +5,11 @@
       "path": "Index.md"
     },
     {
-      "text": "Entegrasyon",
+      "text": "Login / Token Alma",
+      "path": "Login.md"
+    },
+    {
+      "text": "StgApi Entegrasyon",
       "path": "Integration/Index.md",
       "items": [
         {
@@ -43,7 +47,7 @@
     },
     {
       "text": "Oms Entegrasyon",
-      "path": "Integration/Index.md",
+      "path": "Oms/Index.md",
       "items": [
         {
           "text": "Sipariş Entegrasyonu",
@@ -53,12 +57,26 @@
               "path": "Oms/SaveOrder.md"
             },
             {
-              "text": "Sipariş Kalemi İptal Etme İsteği",
+              "text": "Sipariş Kalemi İptal Etme İsteği oluşturma",
+              "path": "Oms/CancelOrderItemLineRequest.md"
+            },            
+            {
+              "text": "İptal Edilen Sipariş Kalemini Bildirme",
               "path": "Oms/CancelOrderItemLine.md"
             },
             {
               "text": "Paket (Gönderi) Ekleme",
               "path": "Oms/CreatePackage.md"
+            },            
+            {
+              "text": "Paket (Gönderi) Webhook Örnekleri",
+              "path": "WhatIsWebHook.md",
+              "items": [
+                {
+                  "text": "gönderi paketinin güncelleme bildirimleri",
+                  "path": "Oms/PackageUpdateWebHook.md"
+                }
+              ]
             }
           ]
         },
@@ -71,6 +89,7 @@
             },
             {
               "text": "İade Webhook Örnekleri",
+              "path": "WhatIsWebHook.md",
               "items": [
                 {
                   "text": "İade paketinin durum güncellemeleri",
