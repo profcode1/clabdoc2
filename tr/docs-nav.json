@@ -53,6 +53,10 @@
           "text": "Sipariş Entegrasyonu",
           "items": [
             {
+              "text": "Giriş",
+              "path": "Oms/Index.md"
+            },
+            {
               "text": "Sipariş Kaydetme",
               "path": "Oms/SaveOrder.md"
             },

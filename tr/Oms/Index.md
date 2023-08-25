@@ -19,9 +19,8 @@ Tüm istekler için öncelikle sizelere verilmiş olan kullanıcı adı şifre i
     * [Sipariş Kalemi İptal Etme İsteği Oluşturma](CancelOrderItemLineRequest.md)
     * [Sipariş Kalemi İptal Bilgisi Gönderme](CancelOrderItemLine.md)
     * [Paket Yaratma](CreatePackage.md)
-* İade
-    * [İade Yaratma](CreatePackage.md)
-* [Örnek Web Hooklar](../WhatIsWebHook.md)
+    * [İade Paketi Yaratma](CreateReturnRequest.md)
+    * [Örnek Web Hooklar](../WhatIsWebHook.md)
 
 
 
