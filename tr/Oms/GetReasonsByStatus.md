@@ -20,7 +20,7 @@ authorization: Bearer ...
 
 ## İstek Parametreleri
 
-- `statusType` (zorunlu): İptal durumu tipini belirtir (örn. "Cancelled").
+- `statusType` (zorunlu): İptal durumu tipini belirtir (örn. "Cancelled","Returned").
 
 ## İstek Örneği
 
