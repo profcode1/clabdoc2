@@ -1,0 +1,1 @@
+# Ürün Yönetimi > Ürün Detay
