@@ -137,6 +137,29 @@
       "path": "Hub/Index.md",
       "items": [
         {
+          "text": "Ürün Yönetimi (Pim)",
+          "items": [
+            {
+              "text": "Ürün Listesi",
+              "path": "Hub/Pim/ProductList.md",
+              "items": [
+                {
+                  "text": "Ürün Listesinde Arama / Ürünleri Bulma",
+                  "path": "Hub/Pim/ProductList-Search.md"
+                },
+                {
+                  "text": "Toplu Ürün İşlemleri",
+                  "path": "Hub/Pim/ProductList-Bulk.md"
+                }
+              ]
+            },
+            {
+              "text": "Ürün Detay",
+              "path": "Hub/Pim/ProductList-Detail.md"
+            }
+          ]
+        },
+        {
           "text": "Sipariş",
           "items": [
             {
