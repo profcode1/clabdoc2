@@ -161,6 +161,10 @@
             {
               "text": "Ürün Detay",
               "path": "Hub/Pim/ProductList-Detail.md"
+            },
+            {
+              "text": "Kategori Yönetimi",
+              "path": "Hub/Pim/Category.md"
             }
           ]
         },
