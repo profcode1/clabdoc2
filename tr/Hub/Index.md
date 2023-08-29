@@ -1,19 +1,10 @@
-# Başlangıç
+# Commercelab Hub Kullanıcı Kılavuzu
 
-## Commercelab Developer Portal'e Hoşgeldiniz
+## Commercelab Hub Kullanıcı Kılavuzuna Hoşgeldiniz
 
-Bu doküman portalı entegrasyon veya arayüz üzerinden yapılacak işlemlerinin tamamlanması adına gerekli bütün bilgilerin iletildiği Commercelab entegrasyon doküman sayfasıdır.
+Bu dokümanlar arayüz üzerinden yapılacak işlemlerinin tamamlanması adına gerekli bütün bilgilerin sağlamak üzere hazırlanmıştır.
 
 ![screenshot](../../m/integration.jpeg)
-
-
-## Entegrasyon Modelleri
-
-Commercelab ile çalışmaya başlarken birden fazla entegrasyon yöntemi vardır. Bu yöntemlerden sizin yapınıza en uygun olanı seçip buradan nasıl ilerlenebileceğini takip edebilirsiniz.
-
-* Comlab Api entegrasyon modeli
-* Comlab Enterprise entegrasyon modeli
-* Comlab Api + Enterprise entegrasyon modeli
 
 ## Dökümanlar
 
