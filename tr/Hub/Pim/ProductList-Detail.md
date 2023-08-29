@@ -16,6 +16,10 @@
 ## Fotoğraf,Video ekleme, silme, sırasını değiştirme
 ## Attribute görüntüleme, ekleme çıkarma 
 ## Kategori görüntüleme, ekleme, çıkarma 
+* Ürün detay sayfasındaki `Kategoriler` sekmesine geldikten sonra `Kategori Ekle` butonuna basarak sağ tarafta çıkan kategori listesinden ilgili kategoriyi seçerek `Ekle` butonuna basarak ekleme işleminizi yapın.
+* Ekleme işlemini yaptıktan sonra değişikliği kaydetmek için `Save (Kaydet)` butonuna basarak işlemi tamamlayabilirsiniz.
+![screenshot](../../../m/hub/pim/productdetail_addcategory.gif)
+
 ## Bağlantılı ürünleri düzenleme
 * Bundle ürün içeriği düzenleme
 * Genel Öneri ürün düzenleme

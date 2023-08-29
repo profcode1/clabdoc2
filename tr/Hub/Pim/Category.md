@@ -19,6 +19,12 @@ Kategori Yönetiminde bir çok işlem vardır. Her işlemin detayını başlıkl
 ## Kategorinin seo bilgilerini yönetme
 ## Kategoriye manuel ürün sıralaması yapma
 ## Kategoriye manuel ürün bağlama / ürün ekleme , çıkarma
+* Kategori detay sayfasına giriş yaptıktan sonra `Ürünler` sekmesine tıklayın.
+* Burada kategoriye bağlı tüm ürünleri göreceksiniz. yanlarında yazan Manuel ve Auto ifadeleri ürünlerin kurallamı bağlandığı yoksa manuel mi bağlandığını gösterir.
+* Otomatik bağlanan ürünleri buradan silemezsiniz. Bağlantıyı koparmak için kuralları değiştirebilirsiniz veya kuala uyan ürünün özelliklerini değiştirebilirsiniz.
+* Manuel olarak kategoriye ürün bağlamak için + butonuna basarak ürünleri seçtikten sonra kaydet ikonlu butona basın. 
+* İşlemleri tamamlmak için aşağıdaki `Değişiklikleri Kaydet` butonuna basın.
+![screenshot](../../../m/hub/pim/categorydetail-products.gif)
 ## Kategoriye otomatik ürün bağlama kurallarını yönetme (Mapping kuralları)
 * Kategori detay sayfasına giriş yaptıktan sonra `Mapping Kuralları` sekmesine tıklayın.
 * Açılan sekmede `Ekle` butonuna basın.
