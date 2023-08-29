@@ -143,6 +143,7 @@
       "items": [
         {
           "text": "Ürün Yönetimi (Pim)",
+          "path": "Hub/Pim/Index.md",
           "items": [
             {
               "text": "Ürün Listesi",
@@ -165,11 +166,16 @@
             {
               "text": "Kategori Yönetimi",
               "path": "Hub/Pim/Category.md"
+            },            
+            {
+              "text": "Kategori Ürün Bağlama Yöntemleri",
+              "path": "Hub/Pim/CategoryProductRelation.md"
             }
+            
           ]
         },
         {
-          "text": "Sipariş",
+          "text": "Sipariş Yönetimi (Oms)",
           "items": [
             {
               "text": "Sipariş Listesi",
@@ -180,6 +186,38 @@
               "path": "Integration/Catalog/PriceStock.md"
             }
           ]
+        },
+        {
+          "text": "İçerik Yönetimi (CMS)",
+          "path": "Hub/Order/Orders.md"
+        }
+        ,
+        {
+          "text": "Depo Yönetimi (WMS)",
+          "path": "Hub/Order/Orders.md"
+        }
+        ,
+        {
+          "text": "Gönderi Yönetimi (TMS)",
+          "path": "Hub/Order/Orders.md"
+        }
+        ,
+        {
+          "text": "Ödeme Yönetimi (PaymentGateway)",
+          "path": "Hub/Order/Orders.md"
+        },
+        {
+          "text": "Raporlama (BI)",
+          "path": "Hub/Order/Orders.md"
+        },
+        {
+          "text": "Kullanıcı ve Yetki Yönetimi",
+          "path": "Hub/Order/Orders.md"
+        }
+        ,
+        {
+          "text": "Log ve Takip",
+          "path": "Hub/Order/Orders.md"
         }
       ]
     }

@@ -10,13 +10,13 @@
 
 
 ## Ürün Detayında yapabileceğiniz işlemler
-### İsim, açıklama gibi içerik alanlarını görüntüleme ve düzenleme
+## İsim, açıklama gibi içerik alanlarını görüntüleme ve düzenleme
 ![screenshot](../../../m/hub/pim/productdetail-content.png)
-### Satış durumunu güncelleme (Satışa Açmak,Satışa Kapatmak)
-### Fotoğraf,Video ekleme, silme, sırasını değiştirme
-### Attribute görüntüleme, ekleme çıkarma 
-### Kategori görüntüleme, ekleme çıkarma 
-### Bağlantılı ürünleri düzenleme
+## Satış durumunu güncelleme (Satışa Açmak,Satışa Kapatmak)
+## Fotoğraf,Video ekleme, silme, sırasını değiştirme
+## Attribute görüntüleme, ekleme çıkarma 
+## Kategori görüntüleme, ekleme, çıkarma 
+## Bağlantılı ürünleri düzenleme
 * Bundle ürün içeriği düzenleme
 * Genel Öneri ürün düzenleme
 * Satış Öncesi Öneri ürün düzenleme

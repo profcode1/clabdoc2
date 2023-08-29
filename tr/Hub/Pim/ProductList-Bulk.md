@@ -34,12 +34,12 @@ Toplu işlemler arasında bir çok işlem vardır. Her işlemin detayını başl
 * Sonraki ekranda ürünlerden çıkarmak istediğiniz özelliği  seçin. Seçim sonrası açılan özellik değerleri listesinden ürünlerden çıkarmak istediğiniz özellik değerini seçin ve soldaki `Next (İleri)` butonuna basın. 
 * Bir sonraki ekranda işlemin özeti çıkacaktır. İşleminizi son bir kontrol yaptıktan sonra  `Next (İleri)` butonuna basarak işleminizi tamamlayın.
 ![screenshot](../../../m/hub/pim/bulk-add-attribute.png)
-## Kategori (Özellik) Ekleme
+## Kategori Ekleme
 * Ürün seçimlerini tamamlayıp toplu işlemlere girdikten sonra (bu dökümanda seçim ve menüye giriş anlatılmıştır.) `Kategoriye Ekle` seçeneğine tıklayarak soldaki `Next (İleri)` butonuna basın. 
 * Sonraki ekranda ürünleri eklemek istediğiniz kategori ağacını seçin. Seçim sonrası açılan kategori listesinden ürünleri eklemek istediğiniz kategoriyi seçin ve soldaki `Next (İleri)` butonuna basın. 
 * Bir sonraki ekranda işlemin özeti çıkacaktır. İşleminizi son bir kontrol yaptıktan sonra  `Next (İleri)` butonuna basarak işleminizi tamamlayın.
 ![screenshot](../../../m/hub/pim/bulk_addcategory.gif)
-## Kategoriden (Özellik) Çıkarma 
+## Kategoriden Çıkarma 
 * Ürün seçimlerini tamamlayıp toplu işlemlere girdikten sonra (bu dökümanda seçim ve menüye giriş anlatılmıştır.) `Kategoriden Çıkar` seçeneğine tıklayarak soldaki `Next (İleri)` butonuna basın. 
 * Sonraki ekranda ürünleri çıkarmak istediğiniz kategori ağacını seçin. Seçim sonrası açılan kategori listesinden ürünleri çıkarmak istediğiniz kategoriyi seçin ve soldaki `Next (İleri)` butonuna basın. 
 * Bir sonraki ekranda işlemin özeti çıkacaktır. İşleminizi son bir kontrol yaptıktan sonra  `Next (İleri)` butonuna basarak işleminizi tamamlayın.

@@ -1,10 +1,10 @@
-# Ürün Yönetimi > Kategori Yönetimi
+# Ürün Yönetimi > Görevler
 
 ## Kategori Yönetimine Giriş
 
 Kategori Yönetimine  sol menüden  `Ürün Yönetimi > Kategori Ağaçları` menüsünden ulaşabilirsiniz. Burada yeni kategoriler oluşturabilir, listeleyebilir ve olan kategorileri düzenleyebilirsiniz.
 
-![screenshot](../../../m/hub/pim/category.gif)
+![screenshot](../../../m/hub/pim/jobs.png)
 
 ## Kategori Yönetiminde hangi işlemler yapılabilir?
 Kategori Yönetiminde bir çok işlem vardır. Her işlemin detayını başlıklar halinde bu dökümanda görebilirsiniz. 
