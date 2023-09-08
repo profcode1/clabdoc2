@@ -156,7 +156,20 @@
                 {
                   "text": "Toplu Ürün İşlemleri",
                   "path": "Hub/Pim/ProductList-Bulk.md"
+                },
+                {
+              "text": "Attribute Ayarları",
+              "path": "Hub/Pim/Attribute-Settings.md",
+              "items": [
+                {
+                  "text": "Attribute Yaratma",
+                  "path": "Hub/Pim/Create-Attribute.md"
+                },
+                {
+                  "text": "Attribute Değeri Ekleme",
+                  "path": "Hub/Pim/Attributes.md"
                 }
+        
               ]
             },
             {
