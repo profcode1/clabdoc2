@@ -25,6 +25,9 @@ Yeni  bir attribute eklemek için bu ekrandan işlem gerçekleştirilebilir.
 * Sağ üst köşede bulunan `New Attribute` butonuna tıklanır.
 * Açılan pop-up'ta yer alan bilgiler doldurularak yeni attribute ekleme işlemi gerçekleştirilir.
 
+![screenshot](../../../m/hub/pim/create-attribute.mov)
+
+
 * Yeni bir attribute yaratırken doldurulması gereken alanlar:
 *   `İsim` (Zorunlu Alan) Attribute için vereceğiniz isimdir. 
 *   `Data Type` (Zorunlu Alan) Attribute'a vereceğiniz değerin data tipidir. 
