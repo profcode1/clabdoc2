@@ -1,7 +1,7 @@
 
 # Ürün Yönetimi > Özellikler
 
-## Attributes Giriş
+## Attribute Giriş
 
 Attribute'larla ilgili işlemleri Ürün Yönetimi tabı altındaki sekmelerden yönetilir. 
 
@@ -40,7 +40,6 @@ Yeni  bir attribute eklemek için bu ekrandan işlem gerçekleştirilebilir.
 *   `Validation Duration Unit`
 *   `Validation Duration`
 
-![screenshot](../../../m/hub/pim/bulk_addcategory.gif)
 
 ## Attribute'a Değer Ekleme 
 
