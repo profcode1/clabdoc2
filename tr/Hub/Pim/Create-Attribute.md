@@ -61,6 +61,31 @@ Attribute silmek için `Ürün Yönetimi > Özellikler` ekranı kullanılır.
 * İlgili attribute listeden bulunur.
 * Listeleme ekranında attribute'un yanında yer alan `Çöp Kovası` işaretine tıklanarak attribute silme işlemi gerçekleştirilir.
 
+## Attribute Set 
+
+Attribute'leri yönetirken gruplandırmak istenirse attribute set yaratılabilir. Attribute setleri yönetmek için `Ürün Yönetimi > Özellik Setleri` ekranı kullanılır. 
+
+* Attributeler oluşturulacak olan attribute setler ile gruplanır.
+* Ürünlere ve kategorilere attribute setler atanabilir.
+* Attribute setler üzerinde bulunan attributelara default değerler atanabilir.
+
+## Attribute Set Yaratma 
+
+Yeni  bir attribute eklemek için `Ürün Yönetimi > Özellik Setleri` ekranından işlem gerçekleştirilebilir. 
+
+* Sağ üst köşede bulunan `New Attribute Set` butonuna tıklanır.
+* `Name` alanından attribute set'e bir isim tanımlanır.
+* `+Add Attribute` butonuna tıklanarak varolan attributelardan, bu attribute setin içine ekleme yapılır. Daha önce eklenmemiş herhangi bir attribute burada eklenemez.
+* Eklenen attribute'a `Default Value` alanında default bir değer tanımlanabilir.
+
+## Kateogoriye Attribute Set Ekleme 
+
+Herhangi bir kategoriye veya koleksiyona attribute set eklenebilir. Kategoriye eklenen attribute set, kategori üzerindeki tüm ürünler için geçerli olacaktır. 
+
+* `Ürün Yönetimi > Kategori Ağaçları > x Kategori Tree` adımları izlenerek kategori detaya girilir.
+* Buradan attribute set eklenmek istenen kategori seçilir ve `Devam Et`e tıklanır.
+* Kategori detayda `Özellikler` tabı seçilir.
+* Sağ üst köşede yer alan `+` butonu tıklanarak kategoriye Attribute Set ekleme işlemi gerçekleştirilir.
   
 
   
