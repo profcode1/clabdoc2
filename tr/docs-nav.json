@@ -130,7 +130,13 @@
               {
                 "text": "Onaylanan satıcı ürünlerini listeleme",
                 "path": "Pim/GetConfirmedVEndorProducts.md"
+              },
+              {
+                "text": "Kategori modelinin detayları",
+                "path": "Pim/CategoryJsonDoc.md"
               }
+
+              
             ]
           }
         ]
