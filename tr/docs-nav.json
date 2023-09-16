@@ -3,146 +3,144 @@
     {
       "text": "Giriş",
       "path": "Index.md"
-    }
-    ,
+    },
     {
       "text": "Entegrasyon",
-      "items":[{
-        "text": "Login / Token Alma",
-        "path": "Login.md"
-      },
-      {
-        "text": "StgApi Entegrasyon",
-        "path": "Integration/Index.md",
-        "items": [
-          {
-            "text": "Katalog Entegrasyonu",
-            "items": [
-              {
-                "text": "Ürün Entegrasyonu",
-                "path": "Integration/Catalog/Product.md"
-              },
-              {
-                "text": "Fiyat ve Stok Entegrasyonu",
-                "path": "Integration/Catalog/PriceStock.md"
-              }
-            ]
-          },
-          {
-            "text": "Sipariş Entegrasyonu",
-            "path": "Integration/Order.md",
-            "items": [
-              {
-                "text": "Sipariş Güncelleme Entegrasyonu",
-                "path": "Integration/OrderUpdate.md"
-              },
-              {
-                "text": "Sipariş Kargo Bilgisi Entegrasyonu",
-                "path": "Integration/OrderUpdateTrackingData.md"
-              }
-            ]
-          },
-          {
-            "text": "Fatura Entegrasyonu",
-            "path": "Integration/Invoice.md"
-          }
-        ]
-      },
-      {
-        "text": "Oms Entegrasyon",
-        "path": "Oms/Index.md",
-        "items": [
-          {
-            "text": "Sipariş Entegrasyonu",
-            "items": [
-              {
-                "text": "Giriş",
-                "path": "Oms/Index.md"
-              },
-              {
-                "text": "Sipariş Kaydetme",
-                "path": "Oms/SaveOrder.md"
-              },
-              {
-                "text": "Sipariş Kalemi İptal Etme İsteği oluşturma",
-                "path": "Oms/CancelOrderItemLineRequest.md"
-              },            
-              {
-                "text": "İptal Edilen Sipariş Kalemini Bildirme",
-                "path": "Oms/CancelOrderItemLine.md"
-              },
-              {
-                "text": "Paket (Gönderi) Ekleme",
-                "path": "Oms/CreatePackage.md"
-              },            
-              {
-                "text": "Paket (Gönderi) Webhook Örnekleri",
-                "path": "WhatIsWebHook.md",
-                "items": [
-                  {
-                    "text": "gönderi paketinin güncelleme bildirimleri",
-                    "path": "Oms/PackageUpdateWebHook.md"
-                  }
-                ]
-              }
-            ]
-          },
-          {
-            "text": "İade Entegrasyonu",
-            "items": [
-              {
-                "text": "İade isteği yaratma",
-                "path": "Oms/CreateReturnRequest.md"
-              },
-              {
-                "text": "İade Webhook Örnekleri",
-                "path": "WhatIsWebHook.md",
-                "items": [
-                  {
-                    "text": "İade paketinin durum güncellemeleri",
-                    "path": "Oms/ReturnRequestStatusUpdateWebHook.md"
-                  },
-                  {
-                    "text": "İade paketinin onaylanması",
-                    "path": "Oms/ReturnRequestConfirmedWebHook.md"
-                  },
-                  {
-                    "text": "İade paketinin reddedilmesi",
-                    "path": "Oms/ReturnRequestRejectedUpdateWebHook.md"
-                  }
-                ]
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "text": "Pim Entegrasyon",
-        "path": "Integration/Index.md",
-        "items": [
-          {
-            "text": "Katalog Entegrasyonu",
-            "items": [
-              {
-                "text": "Onaylanan satıcı ürününe sku kaydetme ",
-                "path": "Pim/SaveExternalSku.md"
-              },
-              {
-                "text": "Onaylanan satıcı ürünlerini listeleme",
-                "path": "Pim/GetConfirmedVEndorProducts.md"
-              },
-              {
-                "text": "Kategori modelinin detayları",
-                "path": "Pim/CategoryJsonDoc.md"
-              }
-
-              
-            ]
-          }
-        ]
-      }]
-    }    
-    ,
+      "items": [
+        {
+          "text": "Login / Token Alma",
+          "path": "Login.md"
+        },
+        {
+          "text": "StgApi Entegrasyon",
+          "path": "Integration/Index.md",
+          "items": [
+            {
+              "text": "Katalog Entegrasyonu",
+              "items": [
+                {
+                  "text": "Ürün Entegrasyonu",
+                  "path": "Integration/Catalog/Product.md"
+                },
+                {
+                  "text": "Fiyat ve Stok Entegrasyonu",
+                  "path": "Integration/Catalog/PriceStock.md"
+                }
+              ]
+            },
+            {
+              "text": "Sipariş Entegrasyonu",
+              "path": "Integration/Order.md",
+              "items": [
+                {
+                  "text": "Sipariş Güncelleme Entegrasyonu",
+                  "path": "Integration/OrderUpdate.md"
+                },
+                {
+                  "text": "Sipariş Kargo Bilgisi Entegrasyonu",
+                  "path": "Integration/OrderUpdateTrackingData.md"
+                }
+              ]
+            },
+            {
+              "text": "Fatura Entegrasyonu",
+              "path": "Integration/Invoice.md"
+            }
+          ]
+        },
+        {
+          "text": "Oms Entegrasyon",
+          "path": "Oms/Index.md",
+          "items": [
+            {
+              "text": "Sipariş Entegrasyonu",
+              "items": [
+                {
+                  "text": "Giriş",
+                  "path": "Oms/Index.md"
+                },
+                {
+                  "text": "Sipariş Kaydetme",
+                  "path": "Oms/SaveOrder.md"
+                },
+                {
+                  "text": "Sipariş Kalemi İptal Etme İsteği oluşturma",
+                  "path": "Oms/CancelOrderItemLineRequest.md"
+                },
+                {
+                  "text": "İptal Edilen Sipariş Kalemini Bildirme",
+                  "path": "Oms/CancelOrderItemLine.md"
+                },
+                {
+                  "text": "Paket (Gönderi) Ekleme",
+                  "path": "Oms/CreatePackage.md"
+                },
+                {
+                  "text": "Paket (Gönderi) Webhook Örnekleri",
+                  "path": "WhatIsWebHook.md",
+                  "items": [
+                    {
+                      "text": "gönderi paketinin güncelleme bildirimleri",
+                      "path": "Oms/PackageUpdateWebHook.md"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "text": "İade Entegrasyonu",
+              "items": [
+                {
+                  "text": "İade isteği yaratma",
+                  "path": "Oms/CreateReturnRequest.md"
+                },
+                {
+                  "text": "İade Webhook Örnekleri",
+                  "path": "WhatIsWebHook.md",
+                  "items": [
+                    {
+                      "text": "İade paketinin durum güncellemeleri",
+                      "path": "Oms/ReturnRequestStatusUpdateWebHook.md"
+                    },
+                    {
+                      "text": "İade paketinin onaylanması",
+                      "path": "Oms/ReturnRequestConfirmedWebHook.md"
+                    },
+                    {
+                      "text": "İade paketinin reddedilmesi",
+                      "path": "Oms/ReturnRequestRejectedUpdateWebHook.md"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Pim Entegrasyon",
+          "path": "Integration/Index.md",
+          "items": [
+            {
+              "text": "Katalog Entegrasyonu",
+              "items": [
+                {
+                  "text": "Onaylanan satıcı ürününe sku kaydetme ",
+                  "path": "Pim/SaveExternalSku.md"
+                },
+                {
+                  "text": "Onaylanan satıcı ürünlerini listeleme",
+                  "path": "Pim/GetConfirmedVEndorProducts.md"
+                },
+                {
+                  "text": "Kategori modelinin detayları",
+                  "path": "Pim/CategoryJsonDoc.md"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
     {
       "text": "Hub Kullanıcı Kılavuzu",
       "path": "Hub/Index.md",
@@ -164,18 +162,19 @@
                   "path": "Hub/Pim/ProductList-Bulk.md"
                 },
                 {
-              "text": "Attribute Ayarları",
-              "path": "Hub/Pim/Attribute-Settings.md",
-              "items": [
-                {
-                  "text": "Attribute Yaratma",
-                  "path": "Hub/Pim/Create-Attribute.md"
-                },
-                {
-                  "text": "Attribute Data Tipi",
-                  "path": "Hub/Pim/Attribute-Data-Type.md"
+                  "text": "Attribute Ayarları",
+                  "path": "Hub/Pim/Attribute-Settings.md",
+                  "items": [
+                    {
+                      "text": "Attribute Yaratma",
+                      "path": "Hub/Pim/Create-Attribute.md"
+                    },
+                    {
+                      "text": "Attribute Data Tipi",
+                      "path": "Hub/Pim/Attribute-Data-Type.md"
+                    }
+                  ]
                 }
-        
               ]
             },
             {
@@ -185,12 +184,11 @@
             {
               "text": "Kategori Yönetimi",
               "path": "Hub/Pim/Category.md"
-            },            
+            },
             {
               "text": "Kategori Ürün Bağlama Yöntemleri",
               "path": "Hub/Pim/CategoryProductRelation.md"
             }
-            
           ]
         },
         {
@@ -209,18 +207,15 @@
         {
           "text": "İçerik Yönetimi (CMS)",
           "path": "Hub/Order/Orders.md"
-        }
-        ,
+        },
         {
           "text": "Depo Yönetimi (WMS)",
           "path": "Hub/Order/Orders.md"
-        }
-        ,
+        },
         {
           "text": "Gönderi Yönetimi (TMS)",
           "path": "Hub/Order/Orders.md"
-        }
-        ,
+        },
         {
           "text": "Ödeme Yönetimi (PaymentGateway)",
           "path": "Hub/Order/Orders.md"
@@ -232,8 +227,7 @@
         {
           "text": "Kullanıcı ve Yetki Yönetimi",
           "path": "Hub/Order/Orders.md"
-        }
-        ,
+        },
         {
           "text": "Log ve Takip",
           "path": "Hub/Order/Orders.md"
