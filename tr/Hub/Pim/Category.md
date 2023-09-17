@@ -2,19 +2,38 @@
 
 ## Kategori Yönetimine Giriş
 
-Kategori Yönetimine  sol menüden  `Ürün Yönetimi > Kategori Ağaçları` menüsünden ulaşabilirsiniz. Burada yeni kategoriler oluşturabilir, listeleyebilir ve olan kategorileri düzenleyebilirsiniz.
+Kategori Yönetimine  sol menüden  `Ürün Yönetimi > Kategori Ağaçları` menüsünden ulaşabilirsiniz. Burada yeni kategoriler oluşturabilir, listeleyebilir ve varolan kategorileri düzenleyebilirsiniz.
 
 ![screenshot](../../../m/hub/pim/category.gif)
 
 ## Kategori Yönetiminde hangi işlemler yapılabilir?
-Kategori Yönetiminde bir çok işlem vardır. Her işlemin detayını başlıklar halinde bu dökümanda görebilirsiniz. 
+
+Kategori Yönetiminde bir çok işlem vardır.
+
+* Birden fazla kategori ağacı yaratılabilir, her bir kategori ağacı `Ürün Yönetimi > Kategori Ağaçları` menüsünde listelenir.
+* Kategori ağacı tıklanarak detayına erişilir.
+* Kategori ağacı bir ağaç yapısında görüntülenir; parent kategori, breadcrumb kategoriler bu ağaç yapısında görülür.
+* Yeni kategori eklenebilir.
+* Kategori detayları düzenlenebilir. 
+
 ## Yeni kategori nasıl yaratılır?
+
+* `Ürün Yönetimi > Kategori Ağaçları` ekranına girildikten sonra işlem yapılmak istenen kategori ağacı seçilir.
+* Herhangi bir parent kategorinin altına kategori eklenmek isteniyorsa, herhangi bir parent kategorinin üzerine imleç getirilir ve kategori isminin sağ tarafında beliren `+` işaretine basılır.
+* Açılan pop-up'ta `Kategori Adı` ve `Kategori ID` alanları doldurulur.
+* `Create` butonuna tıklanarak kaydedilir. 
+
+* Hangi seviyeden kategorinin altına yeni bir kategori eklenmek isteniyorsa, o kategori seviyesindeki kategori isimlerinden birinin üzerine gelinir ve sağında beliren `+` işaretine tıklanarak kategori ekleme işlemleri sürdürülür.
+  
+
 ## Kategorinin detayına nasıl girilir?
+
 * Kategori Ağaçları sayfasına girdikten sonra öncelikle bir kategori ağacı seçin.
 * Sonraki sayfada tüm kategorilerinizi bir ağaç yapısında göreceksiniz. Burada kategori isimlerinin solundaki + ve - butonlarına tıklayarak alt kategorileri görebilirsiniz.
 * Detayına girmek istediğiniz kategorinin üstüne tıklayın ve aşağıda bulunan `Devam Et` butonuna basarak detay sayfasına giriş yapın.
 
 ![screenshot](../../../m/hub/pim/category.gif)
+
 ## Kategorinin temel bilgilerini yönetme
 ## Kategorinin seo bilgilerini yönetme
 ## Kategoriye manuel ürün sıralaması yapma
@@ -39,3 +58,9 @@ Kategori Yönetiminde bir çok işlem vardır. Her işlemin detayını başlıkl
 ![screenshot](../../../m/hub/pim/category-rule.gif)
 ## Kategorinin dinamik özelliklerini yönetme
 ## Kategorinin özellik setlerini yönetme
+
+## Kategori Nasıl Silinir?
+
+* Kategori detay sayfasına girilir.
+* En altta yer alan `Delete` butonuna tıklanarak ilgili kategori silinir. 
+
