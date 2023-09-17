@@ -17,28 +17,58 @@
 
 `Definitons` : Bu alanda ürünle ilgili genel bilgiler yer alır. SKU, Product Type, Barkod gibi alanlar burada görüntülenir. 
 
-`Salable` : Ürünün satışa açılması ve satışa kapanması ile ilgili ayarlar ürün özelinde bu sekmede yapılır. Topluca ürün açma/kapama yapılmak istenirse `Toplu Ürün İşlemleri` sekmesinden, `Satış Durumunu Güncelle` adımı ile işlem gerçekleştirilebilir. `https://docs.test.hebiar.com/tr/comlab/latest/Hub/Pim/ProductList-Bulk` bağlantısından toplu ürün açma/kapama işlemleri gerçekleştirilir. 
+`Salable` 
 
-`Variants`: 
+`Variants`
 
 `Contents`: Bu alanda, Name, Title, Seo Description, Short Description ve Description alanları düzenlenebilir.
 
-`Assets`: Ürün görselleri bu alandan yönetilebilir. Ayrıca toplu işlemlerle topluca ürünlere yüklenebilir. Ürünlere video ekleme işlemleri buradan yapılır. 
+`Assets`
 
-`Prices`: 
+`Prices`
+
 `Stocks`
+
 `SEO`
+
 `Categories`
+
 `Attributes`
+
 `Related Products`
+
 `Change Lists`
+
 `Transaction List`
+
 `All Data`
+
 `Save`
 
 # Satış durumunu güncelleme (Satışa Açmak,Satışa Kapatmak)
+
+Ürünün satışa açılması ve satışa kapanması ile ilgili ayarlar ürün özelinde bu sekmede yapılır.
+
+* Topluca ürün açma/kapama yapılmak istenirse `Toplu Ürün İşlemleri` sekmesinden, `Satış Durumunu Güncelle` adımı ile işlem gerçekleştirilebilir. 
+* `https://docs.test.hebiar.com/tr/comlab/latest/Hub/Pim/ProductList-Bulk` bağlantısından toplu ürün açma/kapama işlemleri gerçekleştirilir.
+
+* 
+
 # Fotoğraf,Video ekleme, silme, sırasını değiştirme
+
+Ürün görselleri bu alandan yönetilebilir. 
+
+* Ürün üzerindeki mevcut assetler bu alanda listelenir.
+* Assetlerin sol tarafında yer alan `çift taraflı ok` ile assetlerin sırası düzenlenir.
+  
+* `+Add New Asset` butonuna tıklanarak yeni asset eklenebilir.
+* Buradan fotoğraf, video veya gif eklenebilir.
+
+Ayrıca toplu işlemlerle topluca ürünlere yüklenebilir. Ürünlere video ekleme işlemleri buradan yapılır. 
+
 # Attribute görüntüleme, ekleme çıkarma 
+
+
 # Kategori görüntüleme, ekleme, çıkarma 
 * Ürün detay sayfasındaki `Kategoriler` sekmesine geldikten sonra `Kategori Ekle` butonuna basarak sağ tarafta çıkan kategori listesinden ilgili kategoriyi seçerek `Ekle` butonuna basarak ekleme işleminizi yapın.
 * Ekleme işlemini yaptıktan sonra değişikliği kaydetmek için `Save (Kaydet)` butonuna basarak işlemi tamamlayabilirsiniz.
