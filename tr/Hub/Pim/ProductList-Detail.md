@@ -51,8 +51,7 @@
 
 * Topluca ürün açma/kapama yapılmak istenirse `Toplu Ürün İşlemleri` sekmesinden, `Satış Durumunu Güncelle` adımı ile işlem gerçekleştirilebilir. 
 * `https://docs.test.hebiar.com/tr/comlab/latest/Hub/Pim/ProductList-Bulk` bağlantısından toplu ürün açma/kapama işlemleri gerçekleştirilir.
-
-* 
+ 
 
 # Fotoğraf,Video ekleme, silme, sırasını değiştirme
 
@@ -68,7 +67,16 @@ Ayrıca toplu işlemlerle topluca ürünlere yüklenebilir. Ürünlere video ekl
 
 # Attribute görüntüleme, ekleme çıkarma 
 
+Ürün üzerinde yer alan attributeler `Attributes` sekmesinde listelenelir. 
 
+* Ürüne yeni bir attribute değeri eklenmek istendiğinde `+ Add Attribute` butonuna tıklanır.
+* Sağ tarafta `Maps` başlığı altında ürüne eklenebilecek attributelerin bir listesi çıkar.
+* Buradan eklenmek istenen attribute başlığı `Seç` butonuna basılarak seçilir.
+* Attribute seçildikten sonra eklenecek değerler listelenir. Buradaki değerler daha önce attribute ayarlarından ilgili attribute'a eklenmiş olan değerlerdir.
+* Attribute'a atanmak istenen değer seçilir ve `Seç` butonuna basılarak seçilir.
+* `Kaydet` butonuna basılarak eklenen düzenlemeler kaydedilir. 
+  
+  
 # Kategori görüntüleme, ekleme, çıkarma 
 * Ürün detay sayfasındaki `Kategoriler` sekmesine geldikten sonra `Kategori Ekle` butonuna basarak sağ tarafta çıkan kategori listesinden ilgili kategoriyi seçerek `Ekle` butonuna basarak ekleme işleminizi yapın.
 * Ekleme işlemini yaptıktan sonra değişikliği kaydetmek için `Save (Kaydet)` butonuna basarak işlemi tamamlayabilirsiniz.
