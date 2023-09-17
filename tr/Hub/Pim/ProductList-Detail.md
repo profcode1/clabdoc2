@@ -67,7 +67,7 @@ Yapılan değişiklikler `Change Lists` sekmesinde listelenir. Düzenlemeleri ka
 
 Ayrıca toplu işlemlerle topluca ürünlere yüklenebilir. Ürünlere video ekleme işlemleri buradan yapılır. 
 
-# Attribute görüntüleme, ekleme çıkarma 
+# Attribute Görüntüleme, Ekleme ve Çıkarma 
 
 Ürün üzerinde yer alan attributeler `Attributes` sekmesinde listelenelir. 
 
@@ -81,15 +81,20 @@ Ayrıca toplu işlemlerle topluca ürünlere yüklenebilir. Ürünlere video ekl
 Yapılan değişiklikler `Change Lists` sekmesinde listelenir. Düzenlemeleri kaydetmek için bu sekmeye gelerek `Save` butonuna tıklanır. 
   
   
-# Kategori görüntüleme, ekleme, çıkarma 
+# Kategori Görüntüleme, Ekleme ve Çıkarma 
 * Ürün detay sayfasındaki `Kategoriler` sekmesine geldikten sonra `Kategori Ekle` butonuna basarak sağ tarafta çıkan kategori listesinden ilgili kategoriyi seçerek `Ekle` butonuna basarak ekleme işleminizi yapın.
 * Ekleme işlemini yaptıktan sonra değişikliği kaydetmek için `Save (Kaydet)` butonuna basarak işlemi tamamlayabilirsiniz.
 ![screenshot](../../../m/hub/pim/productdetail_addcategory.gif)
 
 Yapılan değişiklikler `Change Lists` sekmesinde listelenir. Düzenlemeleri kaydetmek için bu sekmeye gelerek `Save` butonuna tıklanır. 
 
-# Bağlantılı ürünleri düzenleme
+# Bağlantılı Ürünleri Düzenleme
+
+`Related Products` sekmesinden aşağıdaki düzenlemeler yapılabilir: 
+
 * Bundle ürün içeriği düzenleme
 * Genel Öneri ürün düzenleme
 * Satış Öncesi Öneri ürün düzenleme
 * Satış Sonrası Öneri ürün düzenleme
+
+
