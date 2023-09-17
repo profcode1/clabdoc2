@@ -19,4 +19,11 @@ Yeni oluşturulacak olan attribute için gereken data tipi mevcutta yok ise, yen
 
 ## Attribute Data Tipi Özellikleri 
 
+Attribute data tipi oluşturulurken aşağıdaki alanlar doldurulur: 
+*  `Title`
+*  `Key`
+*  `Type`
+*  `Description`
+
+`Type` alanında dataya verilebilecek tüm data türleri yer alır. 
 
