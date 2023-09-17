@@ -21,7 +21,7 @@
 
 `Variants`
 
-`Contents`: Bu alanda, Name, Title, Seo Description, Short Description ve Description alanları düzenlenebilir.
+`Contents`
 
 `Assets`
 
@@ -52,6 +52,7 @@
 * Topluca ürün açma/kapama yapılmak istenirse `Toplu Ürün İşlemleri` sekmesinden, `Satış Durumunu Güncelle` adımı ile işlem gerçekleştirilebilir. 
 * `https://docs.test.hebiar.com/tr/comlab/latest/Hub/Pim/ProductList-Bulk` bağlantısından toplu ürün açma/kapama işlemleri gerçekleştirilir.
  
+Yapılan değişiklikler `Change Lists` sekmesinde listelenir. Düzenlemeleri kaydetmek için bu sekmeye gelerek `Save` butonuna tıklanır. 
 
 # Fotoğraf,Video ekleme, silme, sırasını değiştirme
 
@@ -59,9 +60,10 @@
 
 * Ürün üzerindeki mevcut assetler bu alanda listelenir.
 * Assetlerin sol tarafında yer alan `çift taraflı ok` ile assetlerin sırası düzenlenir.
-  
 * `+Add New Asset` butonuna tıklanarak yeni asset eklenebilir.
 * Buradan fotoğraf, video veya gif eklenebilir.
+
+Yapılan değişiklikler `Change Lists` sekmesinde listelenir. Düzenlemeleri kaydetmek için bu sekmeye gelerek `Save` butonuna tıklanır. 
 
 Ayrıca toplu işlemlerle topluca ürünlere yüklenebilir. Ürünlere video ekleme işlemleri buradan yapılır. 
 
@@ -74,13 +76,17 @@ Ayrıca toplu işlemlerle topluca ürünlere yüklenebilir. Ürünlere video ekl
 * Buradan eklenmek istenen attribute başlığı `Seç` butonuna basılarak seçilir.
 * Attribute seçildikten sonra eklenecek değerler listelenir. Buradaki değerler daha önce attribute ayarlarından ilgili attribute'a eklenmiş olan değerlerdir.
 * Attribute'a atanmak istenen değer seçilir ve `Seç` butonuna basılarak seçilir.
-* `Kaydet` butonuna basılarak eklenen düzenlemeler kaydedilir. 
+* `Kaydet` butonuna basılarak eklenen düzenlemeler kaydedilir.
+
+Yapılan değişiklikler `Change Lists` sekmesinde listelenir. Düzenlemeleri kaydetmek için bu sekmeye gelerek `Save` butonuna tıklanır. 
   
   
 # Kategori görüntüleme, ekleme, çıkarma 
 * Ürün detay sayfasındaki `Kategoriler` sekmesine geldikten sonra `Kategori Ekle` butonuna basarak sağ tarafta çıkan kategori listesinden ilgili kategoriyi seçerek `Ekle` butonuna basarak ekleme işleminizi yapın.
 * Ekleme işlemini yaptıktan sonra değişikliği kaydetmek için `Save (Kaydet)` butonuna basarak işlemi tamamlayabilirsiniz.
 ![screenshot](../../../m/hub/pim/productdetail_addcategory.gif)
+
+Yapılan değişiklikler `Change Lists` sekmesinde listelenir. Düzenlemeleri kaydetmek için bu sekmeye gelerek `Save` butonuna tıklanır. 
 
 # Bağlantılı ürünleri düzenleme
 * Bundle ürün içeriği düzenleme
