@@ -9,18 +9,42 @@
 ![screenshot](../../../m/hub/pim/productlist.gif)
 
 
-## Ürün Detayında yapabileceğiniz işlemler
-## İsim, açıklama gibi içerik alanlarını görüntüleme ve düzenleme
+##  Ürün Detayda Yapılabilir İşlemler 
+
+Ürün detayda ürünle ilgili birçok düzenleme yapılabilir. 
+
 ![screenshot](../../../m/hub/pim/productdetail-content.png)
-## Satış durumunu güncelleme (Satışa Açmak,Satışa Kapatmak)
-## Fotoğraf,Video ekleme, silme, sırasını değiştirme
-## Attribute görüntüleme, ekleme çıkarma 
-## Kategori görüntüleme, ekleme, çıkarma 
+
+`Definitons` : Bu alanda ürünle ilgili genel bilgiler yer alır. SKU, Product Type, Barkod gibi alanlar burada görüntülenir. 
+
+`Salable` : Ürünün satışa açılması ve satışa kapanması ile ilgili ayarlar ürün özelinde bu sekmede yapılır. Topluca ürün açma/kapama yapılmak istenirse `Toplu Ürün İşlemleri` sekmesinden, `Satış Durumunu Güncelle` adımı ile işlem gerçekleştirilebilir. `https://docs.test.hebiar.com/tr/comlab/latest/Hub/Pim/ProductList-Bulk` bağlantısından toplu ürün açma/kapama işlemleri gerçekleştirilir. 
+
+`Variants`: 
+
+`Contents`: Bu alanda, Name, Title, Seo Description, Short Description ve Description alanları düzenlenebilir.
+
+`Assets`: Ürün görselleri bu alandan yönetilebilir. Ayrıca toplu işlemlerle topluca ürünlere yüklenebilir. Ürünlere video ekleme işlemleri buradan yapılır. 
+
+`Prices`: 
+`Stocks`
+`SEO`
+`Categories`
+`Attributes`
+`Related Products`
+`Change Lists`
+`Transaction List`
+`All Data`
+`Save`
+
+# Satış durumunu güncelleme (Satışa Açmak,Satışa Kapatmak)
+# Fotoğraf,Video ekleme, silme, sırasını değiştirme
+# Attribute görüntüleme, ekleme çıkarma 
+# Kategori görüntüleme, ekleme, çıkarma 
 * Ürün detay sayfasındaki `Kategoriler` sekmesine geldikten sonra `Kategori Ekle` butonuna basarak sağ tarafta çıkan kategori listesinden ilgili kategoriyi seçerek `Ekle` butonuna basarak ekleme işleminizi yapın.
 * Ekleme işlemini yaptıktan sonra değişikliği kaydetmek için `Save (Kaydet)` butonuna basarak işlemi tamamlayabilirsiniz.
 ![screenshot](../../../m/hub/pim/productdetail_addcategory.gif)
 
-## Bağlantılı ürünleri düzenleme
+# Bağlantılı ürünleri düzenleme
 * Bundle ürün içeriği düzenleme
 * Genel Öneri ürün düzenleme
 * Satış Öncesi Öneri ürün düzenleme
