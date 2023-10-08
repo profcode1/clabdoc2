@@ -53,6 +53,15 @@
           "path": "Oms/Index.md",
           "items": [
             {
+              "text": "Stok Entegrasyonu",
+              "items": [
+                {
+                  "text": "Stok Güncelleme",
+                  "path": "Oms/UpdateStock.md"
+                }
+              ]
+            },
+            {
               "text": "Sipariş Entegrasyonu",
               "items": [
                 {
@@ -123,6 +132,14 @@
             {
               "text": "Katalog Entegrasyonu",
               "items": [
+                {
+                  "text": "Ürün Yaratma",
+                  "path": "Pim/CreateProduct.md"
+                },
+                {
+                  "text": "Fiyat Güncelleme",
+                  "path": "Pim/UpdatePrice.md"
+                },
                 {
                   "text": "Onaylanan satıcı ürününe sku kaydetme ",
                   "path": "Pim/SaveExternalSku.md"
