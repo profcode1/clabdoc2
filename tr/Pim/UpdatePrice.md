@@ -34,7 +34,7 @@ curl --location '{{pim_api_url}}/pim/SaveProductsManually?companyId=8'
 
 ## Açıklamalar
 
-- `{{pim_api_url}}`: Bu kısmı, API'nin gerçek URL'si ile değiştirmeniz gerekmektedir.
+- `pim_api_url`: Bu kısmı, API'nin gerçek URL'si ile değiştirmeniz gerekmektedir.
 - `Authorization: Bearer token`: API isteğini kimlik doğrulama amacıyla kullanılan bir yetkilendirme belirteci (token) ile gönderir. "token" kısmını gerçek bir yetkilendirme belirteci ile değiştirmeniz gerekmektedir.
 - `Content-Type: application/json`: Gönderilen verilerin JSON formatında olduğunu belirten başlık.
 
