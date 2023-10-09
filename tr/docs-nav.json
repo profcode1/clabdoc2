@@ -139,7 +139,32 @@
                 {
                   "text": "Ürün Yaratma Varyantlı",
                   "path": "Pim/CreateProductWithVariant.md"
-                },
+                },                
+                {
+                  "text": "Ürün Yaratma Lookuplar",
+                  "items": [
+                    {
+                      "text": "Listeleri getirme",
+                      "path": "Pim/EntityList.md"
+                    },
+                    {
+                      "text": "Özellikleri (Attribute) listeleme",
+                      "path": "Pim/GetAttributes.md"
+                    },
+                    {
+                      "text": "Özellik (Attribute) yaratma/güncelleme",
+                      "path": "Pim/SaveAttributeWithDetail.md"
+                    },
+                    {
+                      "text": "Para birimi listeleme",
+                      "path": "Pim/GetCurrencies.md"
+                    },
+                    {
+                      "text": "Ürün Tipleri",
+                      "path": "Pim/ProductTypes.md"
+                    }
+                  ]
+                },                
                 {
                   "text": "Fiyat Güncelleme",
                   "path": "Pim/UpdatePrice.md"
