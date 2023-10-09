@@ -1,4 +1,4 @@
-# Yeni Ürün Yaratma ve Güncelleme API Dökümantasyonu
+# Yeni Ürün Yaratma ve Güncelleme API Dökümantasyonu (Tekil Ürün)
 
 Bu API, yeni ürünlerin yaratılması veya mevcut ürünlerin güncellenmesi için kullanılır.
 
@@ -23,7 +23,7 @@ API isteği, aşağıdaki JSON verilerini içeren bir dizi ürün bilgisi içeri
   - **Model**: Ürünün model numarası.
   - **Option**: Ürünün seçeneği.
   - **Sku**: Ürünün stok birimi (SKU).
-  - **Type**: Ürünün tipi.
+  - **Type**: Ürünün tipi. Tekil ürün için 4 olmalıdır.
 
 ### Ürün Adları
 
@@ -49,6 +49,14 @@ API isteği, aşağıdaki JSON verilerini içeren bir dizi ürün bilgisi içeri
   - **SalePrice**: Ürünün satış fiyatı.
   - **CampaignPrice**: Ürünün kampanya fiyatı (varsa).
   - **OperationType**: Fiyat işlem türü (örneğin: "upsert").
+
+### Ürün Fotoğraf ve Video (Assets)
+
+- Ürünün medya varlıklarını içeren bir dizi nesne. (örneğin, ürün görselleri)
+  - **EntityListId**: Varlığı tanımlayan kimlik.
+  - **Name**: Varlığın URL'si veya adı.
+  - **Order**: Varlığın sıralama düzeni.
+  - **AssetType**: Varlığın tipi video=3,fotoğraf=1.
 
 ### Ürün Özellikleri
 
@@ -108,12 +116,46 @@ curl --location 'https://apiurl/pim/SaveProductsManually?companyId=8' \
                 "SalePrice": 600,
                 "OperationType": "upsert"
             }
-        ],
+        ],        
+        "Assets": [
+            {
+                "EntityListId": 8,
+                "Name": "http://domain.com/full_path_url_ornegi.jpg",
+                "AssetType":3,
+                "Order": 0
+            },
+            {
+                "EntityListId": 8,
+                "Name": "relative_path_url_ornegi.jpg",
+                "AssetType":1,
+                "Order": 1
+            },
+            {
+                "EntityListId": 8,
+                "Name": "relative_path_url_ornegi.mpeg",
+                "AssetType":3,
+                "Order": 1
+            }
+        ],
         "Attributes": [
             {
                 "EntityListId": 49,
                 "Value": "Siyah",
                 "Key": 260,
+                "OperationType": "upsert",
+                "Culture": "std"
+            },
+            {
+                "EntityListId": 49,
+                "Value": "Unisex",
+                "Key": 267,
+                "OperationType": "upsert",
+                "Culture": "std"
+            },
+            {
+                "EntityListId": 49,
+                "Value": "Apple",
+                "Key": 270,
                 "OperationType": "upsert",
                 "Culture": "std"
             }

@@ -133,8 +133,12 @@
               "text": "Katalog Entegrasyonu",
               "items": [
                 {
-                  "text": "Ürün Yaratma",
+                  "text": "Ürün Yaratma Tekil",
                   "path": "Pim/CreateProduct.md"
+                },
+                {
+                  "text": "Ürün Yaratma Varyantlı",
+                  "path": "Pim/CreateProductWithVariant.md"
                 },
                 {
                   "text": "Fiyat Güncelleme",
