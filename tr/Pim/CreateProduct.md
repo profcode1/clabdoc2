@@ -81,6 +81,7 @@ curl --location 'https://apiurl/pim/SaveProductsManually?companyId=8' \
             "Model": "CV00004X9ZCH",
             "Option": "CV00004X9ZCH",
             "Sku": "CV00004X9ZCH",
+            "Barcode": "99194253408215",
             "Type": 4
         },
         "Name": [
