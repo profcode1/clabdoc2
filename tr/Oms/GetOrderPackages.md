@@ -13,21 +13,24 @@ curl --location 'https://api.oms.prod.hebiar.com/orders/GetOrderPackages?page=0&
 
 ### Parametreler
 
-- `page`: Sipariş paketlerinin alınacağı sayfa numarası (örn: 0)
-- `size`: Bir sayfada görüntülenecek sipariş paketi sayısı (örn: 15)
-- `orderByField`: Sıralama yapılacak alan (örn: `orderDate`)
-- `orderByDirection`: Sıralama yönü (`ASC` veya `DESC`)
-- `StartDate`: Başlangıç tarihi (epoch time formatında)
-- `EndDate`: Bitiş tarihi (epoch time formatında, `null` ise sınırsız)
-- `OrderNumber`: Sipariş numarası (boş bırakılabilir)
-- `Status`: Sipariş durumu (boş bırakılabilir)
-- `CustomerCode`: Müşteri kodu (boş bırakılabilir)
-- `CustomerId`: Müşteri ID'si (boş bırakılabilir)
-- `CustomerFirstName`: Müşterinin adı (boş bırakılabilir)
-- `CustomerLastName`: Müşterinin soyadı (boş bırakılabilir)
-- `CustomerPhone`: Müşterinin telefon numarası (boş bırakılabilir)
-- `CustomerEmail`: Müşterinin e-posta adresi (boş bırakılabilir)
-- `IsGuest`: Müşterinin konuk olup olmadığı (boş bırakılabilir)
+| Parametre          | Değer                       | Değer Açıklaması                                       |
+| ------------------ | --------------------------- | -------------------------------------------------------|
+| page               | 10                          | İstenen sayfa numarası                                 |
+| size               | 15                          | Sayfa başına dönecek maksimum öğe sayısı               |
+| orderByField       | orderDate                   | Sıralama için kullanılacak alan adı                    |
+| orderByDirection   | DESC                        | Sıralama yönü (ASC veya DESC)                          |
+| StartDate          | 1641774294                  | Başlangıç tarihi (Unix timestamp formatında)           |
+| EndDate            | 1641774294                  | Bitiş tarihi (Unix timestamp formatında)               |
+| OrderNumber        | null                        | Sipariş numarası (null ise filtrelenmez)               |
+| Status             | null                        | Sipariş durumu (null ise filtrelenmez)                 |
+| CustomerCode       | null                        | Müşteri kodu (null ise filtrelenmez)                   |
+| CustomerId         | null                        | Müşteri ID'si (null ise filtrelenmez)                  |
+| CustomerFirstName  | null                        | Müşteri adı (null ise filtrelenmez)                    |
+| CustomerLastName   | null                        | Müşteri soyadı (null ise filtrelenmez)                 |
+| CustomerPhone      | null                        | Müşteri telefon numarası (null ise filtrelenmez)       |
+| CustomerEmail      | null                        | Müşteri e-posta adresi (null ise filtrelenmez)         |
+| IsGuest            | null                        | Misafir müşteri olup olmadığı (null ise filtrelenmez)  |
+
 
 ## API Yanıtı
 
