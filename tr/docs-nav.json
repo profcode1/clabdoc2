@@ -77,6 +77,10 @@
                   "path": "Oms/GetOrderPackages.md"
                 },
                 {
+                  "text": "İade Paketlerini Çekme",
+                  "path": "Oms/GetOrderReturnPackage.md"
+                },
+                {
                   "text": "Sipariş Kalemi İptal Etme İsteği oluşturma",
                   "path": "Oms/CancelOrderItemLineRequest.md"
                 },
