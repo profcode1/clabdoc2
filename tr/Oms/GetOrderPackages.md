@@ -32,49 +32,6 @@ curl --location 'https://api.oms.prod.hebiar.com/orders/GetOrderPackages?page=0&
 | IsGuest            | null                        | Misafir müşteri olup olmadığı (null ise filtrelenmez)  |
 
 
-## API Yanıtı
-
-Aşağıda API'nin örnek bir yanıtı yer almaktadır:
-
-```json
-{
-  "isSuccess": true,
-  "statusCode": "string",
-  "errorMesssage": "string",
-  "errorSource": "string",
-  "correlationId": "string",
-  "errors": [
-    {
-      "code": "string",
-      "message": "string"
-    }
-  ],
-  "data": [
-    {
-      "shipmentAddress": { // Teslimat Adresi ile ilgili bilgiler
-        "id": 0,
-        "firstName": "string", // İsim
-        "lastName": "string", // Soyisim
-        ...
-        "fullAddress": "string" // Müşterinin tam adresi
-      },
-      ...
-      "payment": { // Ödeme ile ilgili detaylar bu alanda gelecek
-        ...
-        "iban": "string"
-      },
-      ...
-      "channelName": "string"
-    }
-  ],
-  "resultCount": 0,
-  "totalResultCount": 0,
-  "pageSize": 0,
-  "totalPages": 0,
-  "currentPage": 0
-}
-```
-
 ### Yanıt Alanları ve Açıklamaları
 
 ```json
@@ -217,5 +174,172 @@ Aşağıda API'nin örnek bir yanıtı yer almaktadır:
   "pageSize": 0,                       // Sayfa boyutu
   "totalPages": 0,                      // Toplam sayfa sayısı
   "currentPage": 0                     // Mevcut sayfa
+}
+```
+
+## Örnek API Yanıtı
+
+Aşağıda API'nin örnek bir yanıtı yer almaktadır:
+
+```json
+{
+    "resultCount": 1,
+    "totalResultCount": 1,
+    "pageSize": 5,
+    "totalPages": 1,
+    "currentPage": 0,
+    "isSuccess": true,
+    "statusCode": "200",
+    "data": [
+        {
+            "shipmentAddress": {
+                "id": 894336,
+                "firstName": "ALİ",
+                "lastName": "HAZAR",
+                "company": null,
+                "address1": "Zaviye, ***** / ***",
+                "address2": "-",
+                "city": "Malatya",
+                "cityCode": null,
+                "district": "Yeşilyurt",
+                "districtId": null,
+                "postalCode": "11111",
+                "countryCode": "TR",
+                "neighborhoodId": null,
+                "neighborhood": "Zaviye",
+                "phone": "905312250102",
+                "fullName": "ALİ HAZAR",
+                "fullAddress": "Zaviye, ***** / ***",
+            },
+            "lines": [
+                {
+                    "quantity": 1,
+                    "productSize": null,
+                    "vendorSku": null,
+                    "productName": "Beestar Çizim Seti 4'lü",
+                    "discountDetails": [],
+                    "itemLines": [
+                        {
+                            "id": 851696,
+                            "productName": "Beestar Çizim Seti 4'lü",
+                            "sourceOrderItemLineId": "3124010971725196-26014919-1",
+                            "sourceOrderItemId": "3124010971725196-26014919",
+                            "orderItemId": 785144,
+                            "orderId": 402396,
+                            "sku": "26014919",
+                            "barcode": "8690345727803",
+                            "vendorId": null,
+                            "lastPackageId": 448139,
+                            "lastPackageItemId": 848412,
+                            "quantity": 1,
+                            "isReturn": null,
+                            "returnReason": "Vazgeçtim",
+                            "returnReasonDesc": "-",
+                            "isCancel": true,
+                            "rejectReason": null,
+                            "rejectReasonDesc": null,
+                            "isAvaibleCancelRequest": false,
+                            "isAvaibleReturnRequest": false,
+                            "saleTotal": 5.62,
+                            "returnLineAttachments": null
+                        }
+                    ],
+                    "productColor": null,
+                    "id": 848412,
+                    "sku": "26014919",
+                    "barcode": "8690345727803",
+                    "productPrice": 7.5,
+                    "listPrice": 7.5,
+                    "productImageUrl": "8/26014919DEFAULT/26014919DEFAULT_857.jpg",
+                    "dueDate": "2024-01-12T13:41:26.585+03:00",
+                    "currency": "TRY"
+                }
+            ],
+            "parcels": [],
+            "invoiceAddress": {
+                "id": 894335,
+                "firstName": "ALİ",
+                "lastName": "HAZAR",
+                "company": null,
+                "address1": "Zaviye, ***** / ***",
+                "address2": "-",
+                "city": "Malatya",
+                "cityId": null,
+                "district": "Yeşilyurt",
+                "districtId": null,
+                "postalCode": "11111",
+                "countryCode": "TR",
+                "neighborhoodId": null,
+                "neighborhood": "Zaviye",
+                "phone": "905312250102",
+                "fullName": "ALİ HAZAR",
+                "fullAddress": "Zaviye, ***** / ***",
+                "taxOffice": null,
+                "taxNumber": null
+            },
+            "packageHistories": [
+                {
+                    "createdDate": "2023-01-01T03:00:00+03:00",
+                    "status": "Cancelled"
+                }
+            ],
+            "payment": {
+                "captureTransactionResult": null,
+                "captureTransactionId": null,
+                "authorizationTransactionResult": null,
+                "authorizationTransactionCode": null,
+                "authorizationTransactionId": null,
+                "cardExpirationYear": null,
+                "subscriptionTransactionId": null,
+                "cardExpirationMonth": null,
+                "maskedCreditCardNumber": null,
+                "cardNumber": null,
+                "cardName": null,
+                "cardType": null,
+                "cardFamily": null,
+                "cardIssuer": null,
+                "bankName": null,
+                "fraudScore": null,
+                "posName": null,
+                "allowStoringCreditCardNumber": null,
+                "cardCvv2": null,
+                "paidDateUtc": null,
+                "installmentCount": null,
+                "paymentStatus": null,
+                "total": null,
+                "paymentMethod": null,
+                "paymentType": null,
+                "paymentAgent": null,
+                "transferBankName": null,
+                "iban": null
+            },
+            "sourcePackageId": "5303724133",
+            "orderNumber": "3124010971725196",
+            "taxNumber": null,
+            "customerCode": "b2F5CeP0eE4oBePRkWQrlcqf",
+            "customerFirstName": "ALİ",
+            "customerEmail": "ali.hazar@outlook.com.tr",
+            "customerId": 402380,
+            "customerLastName": "HAZAR",
+            "id": 448139,
+            "cargoTrackingNumber": "242452881425",
+            "cargoTrackingLink": "https://sube.sendeo.com.tr/takip?ccode=345326&musref=5303724133&hash=C7159DD7EF287A1D3CF193F3005F4898",
+            "cargoCode": "SND",
+            "cargoKey": "5303724133",
+            "cargoBarcode": null,
+            "cargoAggrementTypeCode": null,
+            "orderDate": "2024-01-09T10:41:26.585+03:00",
+            "dueDate": "2024-01-12T13:41:26.585+03:00",
+            "status": "Cancelled",
+            "totalListPrice": 7.5,
+            "totalProductPrice": 7.5,
+            "lastModifiedDate": "2024-01-09T10:43:13.262892+03:00",
+            "vendorCode": null,
+            "vendorCompanyName": null,
+            "cargoName": "Sendeo Kargo",
+            "channelCode": "WEB",
+            "channelName": "A101 WebShop"
+        }
+    ]
 }
 ```
