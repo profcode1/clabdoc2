@@ -102,7 +102,7 @@
                 },
                 {
                   "text": "Paketlere Fatura Bilgisi Ekleme",
-                  "path": "Oms/etOrderPackageInvoiceInfoList.md"
+                  "path": "Oms/SetOrderPackageInvoiceInfoList.md"
                 },
                 {
                   "text": "Paketlere ERP Bilgisi Ekleme",
