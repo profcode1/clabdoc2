@@ -89,8 +89,24 @@
                   "path": "Oms/CancelOrderItemLine.md"
                 },
                 {
-                  "text": "Paket (Gönderi) Ekleme",
-                  "path": "Oms/CreatePackage.md"
+                  "text": "Siparişlere Client Statü Set Etme",
+                  "path": "Oms/SetOrderClientStatus.md"
+                },
+                {
+                  "text": "Paketlere Client Statü Set Etme",
+                  "path": "Oms/SetPackageClientStatus.md"
+                },
+                {
+                  "text": "Paketlere Kargo Bilgileri Ekleme",
+                  "path": "Oms/SetOrderPackageCargoInfoList.md"
+                },
+                {
+                  "text": "Paketlere Fatura Bilgisi Ekleme",
+                  "path": "Oms/etOrderPackageInvoiceInfoList.md"
+                },
+                {
+                  "text": "Paketlere ERP Bilgisi Ekleme",
+                  "path": "Oms/SetERPInfoList.md"
                 },
                 {
                   "text": "Paket (Gönderi) Webhook Örnekleri",
