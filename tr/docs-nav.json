@@ -106,7 +106,7 @@
                 },
                 {
                   "text": "Paketlere ERP Bilgisi Ekleme",
-                  "path": "Oms/SetERPInfoList.md"
+                  "path": "Oms/SetErpInfoList.md"
                 },
                 {
                   "text": "Paket (Gönderi) Webhook Örnekleri",
