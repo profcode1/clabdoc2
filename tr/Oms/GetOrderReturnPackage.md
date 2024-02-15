@@ -1,4 +1,4 @@
-# Sipariş Paketlerini Çekme
+# İade Paketlerini Çekme
 
 Bu API, iade paketlerini çekmek için kullanılır.
 
@@ -7,8 +7,8 @@ Bu API, iade paketlerini çekmek için kullanılır.
 Aşağıdaki `curl` komutu ile API'ye istek yapabilirsiniz:
 
 ```bash
-curl --location 'https://api.oms.prod.hebiar.com/orders/GetOrderPackages?page=0&size=15&orderByField=orderDate&orderByDirection=DESC&StartDate=1704099392000&EndDate=null&OrderNumber=&Status=&CustomerCode=null&CustomerId=null&CustomerFirstName=null&CustomerLastName=null&CustomerPhone=&CustomerEmail=&IsGuest=null' \
---header 'authorization: Bearer token'
+curl --location 'https://api.oms.awstest.hebiar.com/orders/GetReturnOrderPackages?page=10&size=15&orderByField=orderDate&orderByDirection=DESC&StartDate=null&EndDate=null&OrderNumber=null&Status=null&CustomerCode=null&CustomerId=null&CustomerFirstName=null&CustomerLastName=null&CustomerPhone=&CustomerEmail=&IsGuest=null' \
+--header 'authorization: Bearer 
 ```
 
 # Sipariş İade Paketleri API Çağrısı Parametreleri
