@@ -204,7 +204,13 @@
                 {
                   "text": "Kategori modelinin detayları",
                   "path": "Pim/CategoryJsonDoc.md"
+                }, 
+                {
+                  "text": "PIM Ürün Görsellerini Çekme",
+                  "path": "Pim/GetImages.md"
                 }
+
+                
               ]
             }
           ]
