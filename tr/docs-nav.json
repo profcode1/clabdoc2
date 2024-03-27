@@ -89,6 +89,10 @@
                   "path": "Oms/CancelOrderItemLine.md"
                 },
                 {
+                  "text": "Toplu Statü Güncelleme",
+                  "path": "Oms/BulkStatuUpdate.md"
+                },
+                {
                   "text": "Siparişlere Client Statü Set Etme",
                   "path": "Oms/SetOrderClientStatus.md"
                 },
