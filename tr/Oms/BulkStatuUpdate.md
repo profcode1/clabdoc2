@@ -4,7 +4,7 @@ Bu API, sipariş paketleri statülerinin toplu olarak güncellenmesinde kullanl�
 
 ## API Endpoint
 
-`POST https://api.oms.awstest.hebiar.com/OrderPackage/SetOrderPackageStatusInfoList`
+`POST {path_the_comlab_oms_api}/OrderPackage/SetOrderPackageStatusInfoList`
 
 ## API Yetkilendirmesi
 
@@ -15,7 +15,7 @@ Bu API'yi kullanabilmek için geçerli bir yetkilendirme belirteci (token) gerek
 Aşağıdaki `curl` komutu ile API'ye istek yapabilirsiniz:
 
 ```bash
-curl --location 'https://api.oms.awstest.hebiar.com/OrderPackage/SetOrderPackageStatusInfoList' \
+curl --location '{path_the_comlab_oms_api}/OrderPackage/SetOrderPackageStatusInfoList' \
 --header 'Content-Type: application/json' \
 --header 'authorization: Bearer token' \
 --data-raw '[

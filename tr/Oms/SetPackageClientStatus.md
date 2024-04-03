@@ -8,7 +8,7 @@ MCC’nin paketleri çekerken kullanacağı filtre alanının set edildiği serv
 
 ## API Endpoint
 
-PUT `https://api.oms.prod.hebiar.com/OrderPackage/SetPackageClientStatus`
+PUT `{path_the_comlab_oms_api}/OrderPackage/SetPackageClientStatus`
 
 ## API Yetkilendirmesi
 
@@ -19,7 +19,7 @@ Bu API'yi kullanabilmek için geçerli bir yetkilendirme belirteci (token) gerek
 Aşağıdaki `curl` komutu ile API'ye istek yapabilirsiniz:
 
 ```bash
-curl --location 'https://api.oms.prod.hebiar.com/OrderPackage/SetPackageClientStatus' \
+curl --location '{path_the_comlab_oms_api}/OrderPackage/SetPackageClientStatus' \
 --header 'Content-Type: application/json' \
 --header 'Authorization: Bearer [YourAccessToken]' \
 --data '[

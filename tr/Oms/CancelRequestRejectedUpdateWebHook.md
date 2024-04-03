@@ -7,7 +7,7 @@ Bu dökümantasyon, İptal isteğinin satıcı tarafından reddedildiği senaryo
 Web Hook, aşağıdaki endpoint'i kullanır:
 
 ```plaintext
-POST https://api.oms.prod.hebiar.com/SampleWebHooks/PackageWebHook_Successsample
+POST {path_the_comlab_oms_api}/SampleWebHooks/PackageWebHook_Successsample
 ```
 
 ## İstek Başlıkları
@@ -57,7 +57,7 @@ Aşağıdaki örnek, Web Hook'a gönderilecek istek verilerini gösterir:
 Aşağıdaki örnek, Web Hook'a istek yapmanın bir örneğini gösterir:
 
 ```bash
-curl --location 'https://api.oms.prod.hebiar.com/SampleWebHooks/PackageWebHook_Successsample' 
+curl --location '{path_the_comlab_oms_api}SampleWebHooks/PackageWebHook_Successsample' 
 --header 'accept: */*' 
 --header 'Content-Type: application/json' 
 --data '{

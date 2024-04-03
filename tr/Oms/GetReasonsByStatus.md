@@ -7,7 +7,7 @@ Bu dökümantasyon, ürün iptal sebepleri ile ilgili API'yi açıklar. Bu API, 
 API, aşağıdaki endpoint'i kullanır:
 
 ```plaintext
-GET https://api.oms.prod.hebiar.com/Lookup/OrderStatusReasonByTenant/GetStatusReasonByType?statusType=Cancelled
+GET {path_the_comlab_oms_api}Lookup/OrderStatusReasonByTenant/GetStatusReasonByType?statusType=Cancelled
 ```
 
 ## Yetkilendirme
@@ -27,7 +27,7 @@ authorization: Bearer ...
 Aşağıdaki örnek, API'ye istek yapmanın bir örneğini gösterir:
 
 ```bash
-curl --location 'https://api.oms.prod.hebiar.com/Lookup/OrderStatusReasonByTenant/GetStatusReasonByType?statusType=Cancelled' 
+curl --location '{path_the_comlab_oms_api}/Lookup/OrderStatusReasonByTenant/GetStatusReasonByType?statusType=Cancelled' 
 --header 'authorization: Bearer ... '
 ```
 
@@ -66,7 +66,3 @@ Bu cevap içerisinden alınan `id` değerini diğer API isteklerinde kullanabili
 
 Bu API'nin döndürdüğü `id` değerini diğer API isteklerinde kullanabilirsiniz.
 
-## Destek
-
-Herhangi bir sorunuz varsa [destek@hebiar.com](mailto:destek@hebiar.com) adresine e-posta gönderebilirsiniz.
-    

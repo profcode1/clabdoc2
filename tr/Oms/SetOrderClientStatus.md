@@ -8,7 +8,7 @@ Siparişleri çekerken kullanılacak olan filtre alanının güncellendiği serv
 
 ## API Endpoint
 
-PUT `https://api.oms.prod.hebiar.com/Orders/SetOrderClientStatus`
+PUT `{path_the_comlab_oms_api}Orders/SetOrderClientStatus`
 
 ## API Yetkilendirmesi
 
@@ -19,7 +19,7 @@ Bu API'yi kullanabilmek için geçerli bir yetkilendirme belirteci (token) gerek
 Aşağıdaki `curl` komutu ile API'ye istek yapabilirsiniz:
 
 ```bash
-curl --location 'https://api.oms.prod.hebiar.com/Orders/SetOrderClientStatus' \
+curl --location '{path_the_comlab_oms_api}/Orders/SetOrderClientStatus' \
 --header 'Content-Type: application/json' \
 --header 'Authorization: Bearer [YourAccessToken]' \
 --data '[

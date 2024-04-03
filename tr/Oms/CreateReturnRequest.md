@@ -7,7 +7,7 @@ Bu dökümantasyon, iade isteği yaratma isteği API'sini açıklar. Bu API, iad
 API, aşağıdaki endpoint'i kullanır:
 
 ```plaintext
-POST https://api.oms.prod.hebiar.com/Return/CreateReturnRequest
+POST {path_the_comlab_oms_api}/Return/CreateReturnRequest
 ```
 
 ## Yetkilendirme
@@ -64,7 +64,7 @@ Aşağıdaki örnek, API'ye gönderilecek istek verilerini gösterir:
 Aşağıdaki örnek, API'ye istek yapmanın bir örneğini gösterir:
 
 ```bash
-curl --location 'https://api.oms.prod.hebiar.com/Return/CreateReturnRequest' 
+curl --location '{path_the_comlab_oms_api}/Return/CreateReturnRequest' 
 --header 'accept: text/plain' 
 --header 'Authorization: Bearer ...loginden-alinan-token...' 
 --header 'Content-Type: application/json' 

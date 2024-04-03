@@ -7,7 +7,7 @@ Bu dökümantasyon, iptal edilen sipariş kalemini bildirme isteği API'sini aç
 API, aşağıdaki endpoint'i kullanır:
 
 ```plaintext
-POST https://api.oms.prod.hebiar.com/Orders/CancelOrderItemLineList
+POST {path_the_comlab_oms_api}Orders/CancelOrderItemLineList
 ```
 
 ## Yetkilendirme
@@ -54,7 +54,7 @@ Aşağıdaki örnek, API'ye gönderilecek istek verilerini gösterir:
 Aşağıdaki örnek, API'ye istek yapmanın bir örneğini gösterir:
 
 ```bash
-curl --location 'https://api.oms.prod.hebiar.com/Orders/CancelOrderItemLineList' 
+curl --location '{path_the_comlab_oms_api}/Orders/CancelOrderItemLineList' 
 --header 'accept: text/plain' 
 --header 'Authorization: Bearer ...loginden-alinan-token...' 
 --header 'Content-Type: application/json' 

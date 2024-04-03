@@ -113,6 +113,22 @@
                   "path": "Oms/SetErpInfoList.md"
                 },
                 {
+                  "text": "Ürün Kalemlerini Farklı Paketlere Bölme",
+                  "path": "Oms/Split.md"
+                },
+                {
+                  "text": "Paketleri Ürün Miktarlarına Göre Bölme",
+                  "path": "Oms/SplitPackages.md"
+                },
+                {
+                  "text": "Ürünleri Gruplar Halinde Farklı Paketlere Bölme",
+                  "path": "Oms/MultiSplit.md"
+                },
+                {
+                  "text": "Ürünleri Adet Bazında Paketlere Bölme",
+                  "path": "Oms/QuantitySplit.md"
+                },
+                {
                   "text": "Paket (Gönderi) Webhook Örnekleri",
                   "path": "WhatIsWebHook.md",
                   "items": [

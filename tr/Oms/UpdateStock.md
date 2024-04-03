@@ -8,7 +8,7 @@ Stok bilgilerini güncellemek için kullanılan bir API'dir. Bu API, SKU (Stok T
 
 ## API Endpoint
 
-PUT `https://api.oms.prod.hebiar.com/Inventory/UpdateInventory`
+PUT `{path_the_comlab_oms_api}/Inventory/UpdateInventory`
 
 ## API Yetkilendirmesi
 
@@ -19,7 +19,7 @@ Bu API'yi kullanabilmek için geçerli bir yetkilendirme belirteci (token) gerek
 Aşağıdaki cURL komutunu ve başlıkları kullanarak API isteği yapabilirsiniz:
 
 ```bash
-curl --location --request PUT 'https://api.oms.prod.hebiar.com/Inventory/UpdateInventory' 
+curl --location --request PUT '{path_the_comlab_oms_api}/Inventory/UpdateInventory' 
 --header 'Authorization: Bearer token' 
 --header 'Content-Type: application/json' 
 --data '[

@@ -7,7 +7,7 @@ Bu API, iade paketlerini çekmek için kullanılır.
 Aşağıdaki `curl` komutu ile API'ye istek yapabilirsiniz:
 
 ```bash
-curl --location 'https://api.oms.awstest.hebiar.com/orders/GetReturnOrderPackages?page=10&size=15&orderByField=orderDate&orderByDirection=DESC&StartDate=null&EndDate=null&OrderNumber=null&Status=null&CustomerCode=null&CustomerId=null&CustomerFirstName=null&CustomerLastName=null&CustomerPhone=&CustomerEmail=&IsGuest=null' \
+curl --location '{path_the_comlab_oms_api}/orders/GetReturnOrderPackages?page=10&size=15&orderByField=orderDate&orderByDirection=DESC&StartDate=null&EndDate=null&OrderNumber=null&Status=null&CustomerCode=null&CustomerId=null&CustomerFirstName=null&CustomerLastName=null&CustomerPhone=&CustomerEmail=&IsGuest=null' \
 --header 'authorization: Bearer 
 ```
 

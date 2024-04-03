@@ -8,7 +8,7 @@ Bu servis, siparişlere ERP'de tutulan bilgileri set etmek için kullanılır. L
 Aşağıdaki `curl` komutu ile API'ye istek yapabilirsiniz:
 
 ```bash
-curl --location 'https://api.oms.prod.hebiar.com/Orders/SetErpInfoList' \
+curl --location '{path_the_comlab_oms_api}/Orders/SetErpInfoList' \
 --header 'Content-Type: application/json' \
 --header 'Authorization: Bearer [YourAccessToken]' \
 --data '[

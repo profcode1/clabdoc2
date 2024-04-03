@@ -7,7 +7,7 @@ Bu API, sipariş paketlerini çekmek için kullanılır.
 Aşağıdaki `curl` komutu ile API'ye istek yapabilirsiniz:
 
 ```bash
-curl --location 'https://api.oms.prod.hebiar.com/orders/GetOrderPackages?page=0&size=15&orderByField=orderDate&orderByDirection=DESC&StartDate=1704099392000&EndDate=null&OrderNumber=&Status=&CustomerCode=null&CustomerId=null&CustomerFirstName=null&CustomerLastName=null&CustomerPhone=&CustomerEmail=&IsGuest=null' \
+curl --location '{path_the_comlab_oms_api}/orders/GetOrderPackages?page=0&size=15&orderByField=orderDate&orderByDirection=DESC&StartDate=1704099392000&EndDate=null&OrderNumber=&Status=&CustomerCode=null&CustomerId=null&CustomerFirstName=null&CustomerLastName=null&CustomerPhone=&CustomerEmail=&IsGuest=null' \
 --header 'authorization: Bearer token'
 ```
 
