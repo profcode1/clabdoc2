@@ -30,7 +30,7 @@ curl --location '{path_the_comlab_oms_api}/orders/GetReturnOrderPackages?page=10
 | CustomerPhone      | null                        | Müşteri telefon numarası (null ise filtrelenmez)       |
 | CustomerEmail      | null                        | Müşteri e-posta adresi (null ise filtrelenmez)         |
 | IsGuest            | null                        | Misafir müşteri olup olmadığı (null ise filtrelenmez)  |
-
+| isConfirm          | null                        | Onaylı olanları veya Onaylanmamış olanları almak için kullanılır (null ise filtrelenmez)  |
 
 ## Anahtar Bilgiler
 
@@ -111,30 +111,31 @@ Aşağıda API'nin örnek bir yanıtı yer almaktadır:
   - `lines`: Siparişteki ürünler
   - `payment`: Ödeme detayları
   - `packageHistories`: Paket geçmişi
-    - `sourcePackageId`: MC tarafındaki paket numarası
-    - `orderNumber`: Sipariş numarası
-    - `taxNumber`: Vergi numarası
-    - `customerCode`: Müşteri kodu
-    - `customerId`: Müşteri ID'si
-    - `customerFirstName`: Müşterinin adı
-    - `customerLastName`: Müşterinin soyadı
-    - `customerEmail`: Müşterinin e-posta adresi
-    - `cargoTrackingNumber`: Kargo takip numarası
-    - `cargoTrackingLink`: Kargo takip linki
-    - `cargoCode`: Kargo kodu
-    - `orderDate`: Sipariş tarihi
-    - `dueDate`: Teslim tarihi
-    - `status`: Sipariş durumu
-    - `totalListPrice`: Toplam liste fiyatı
-    - `totalProductPrice`: Toplam ürün fiyatı
-    - `lastModifiedDate`: Son değiştirilme tarihi
-    - `vendorCode`: Satıcı kodu
-    - `vendorCompanyName`: Satıcı şirket adı
-    - `cargoName`: Kargo şirketi adı
-    - `channelCode`: Kanal kodu
-    - `channelName`: Kanal adı
-  - `resultCount`: Sonuç sayısı
-  - `totalResultCount`: Toplam sonuç sayısı
-  - `pageSize`: Sayfa boyutu
-  - `totalPages`: Toplam sayfa sayısı
-  - `currentPage`: Mevcut sayfa
+  - `sourcePackageId`: Firma tarafındaki paket numarası
+  - `orderNumber`: Sipariş numarası
+  - `taxNumber`: Vergi numarası
+  - `customerCode`: Müşteri kodu
+  - `customerId`: Müşteri ID'si
+  - `customerFirstName`: Müşterinin adı
+  - `customerLastName`: Müşterinin soyadı
+  - `customerEmail`: Müşterinin e-posta adresi
+  - `cargoTrackingNumber`: Kargo takip numarası
+  - `cargoTrackingLink`: Kargo takip linki
+  - `cargoCode`: Kargo kodu
+  - `orderDate`: Sipariş tarihi
+  - `dueDate`: Teslim tarihi
+  - `status`: Sipariş durumu
+  - `totalListPrice`: Toplam liste fiyatı
+  - `totalProductPrice`: Toplam ürün fiyatı
+  - `lastModifiedDate`: Son değiştirilme tarihi
+  - `vendorCode`: Satıcı kodu
+  - `vendorCompanyName`: Satıcı şirket adı
+  - `vendorCode`: Satıcı kodu
+  - `cargoName`: Kargo şirketi adı
+  - `channelCode`: Kanal kodu
+  - `returnLocationCode`: İadenin hangi lokasyondan alındığı bilgisi
+- `resultCount`: Sonuç sayısı
+- `totalResultCount`: Toplam sonuç sayısı
+- `pageSize`: Sayfa boyutu
+- `totalPages`: Toplam sayfa sayısı
+- `currentPage`: Mevcut sayfa
