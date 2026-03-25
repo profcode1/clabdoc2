@@ -64,3 +64,27 @@ Kategori Yönetiminde bir çok işlem vardır.
 * Kategori detay sayfasına girilir.
 * En altta yer alan `Delete` butonuna tıklanarak ilgili kategori silinir. 
 
+## Kategoride Görsel Sıralama Modu
+
+Kategori detay sayfasındaki **Product Sorts** sekmesinde, ürün sıralamasını site görünümüne benzer kart yapısında yönetmenizi sağlayan **Görsel Sıralama Modu** bulunur.
+
+### Görsel Moda Nasıl Geçilir?
+
+* Kategori detay sayfasına girin ve **Product Sorts** sekmesine tıklayın.
+* Toolbar'ın sağ tarafındaki **göz ikonlu switch** ile `Tablo` ve `Görsel` modlar arasında geçiş yapabilirsiniz.
+* Switch açıldığında ürünler kart görünümünde listelenir, kapatıldığında standart tablo görünümüne dönülür.
+
+### Görsel Modda Neler Yapılabilir?
+
+* **Kart Görünümü:** Ürünler, görseli, SKU kodu, adı, fiyatı ve stok durumu ile birlikte kartlar halinde gösterilir. Her satırda 4 ürün listelenir.
+* **Sıralama Numarası:** Her kartın sol üst köşesinde mor badge ile sıra numarası görünür.
+* **Stok Durumu:** Sağ üst köşede yeşil (stokta) veya kırmızı (stok yok) badge ile stok bilgisi gösterilir.
+* **Drag & Drop:** Kartları sürükleyerek sıralamayı değiştirebilirsiniz.
+* **Sağ Tık Menüsü:** Herhangi bir karta sağ tıklayarak açılan menüden:
+    * **İlk** — Ürünü en başa taşır.
+    * **Sıra Gir** — Belirli bir sıra numarası girerek ürünü o sıraya taşır.
+    * **Son** — Ürünü en sona taşır.
+* **Tam Ekran Modu:** Görsel alanın sağ üst köşesindeki butonla tam ekran moduna geçilebilir. Tam ekrandan çıkmak için X butonuna basılır.
+
+![screenshot](../../../m/hub/pim/category-visual-sort.gif)
+
